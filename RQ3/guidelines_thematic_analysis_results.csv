@@ -1,0 +1,1145 @@
+Repo Name,Contributing Guildlines Link,Commenting Practice Related Content,label,,A's label,B's label,Final label
+SeqWare/seqware,https://seqware.github.io/docs/100-coding-standards/,Checkstyle Configuration,,,,,
+ControlSystemStudio/cs-studio,"https://github.com/ControlSystemStudio/cs-studio/wiki/HowToContribute
+https://github.com/ControlSystemStudio/cs-studio/wiki/CodingGuidelines",\,,,,,
+hibernate/hibernate-ogm-ignite,http://hibernate.org/ogm/contribute/,"A pull request can contain several commits but should be self contained: include the implementation, its unit tests, its documentation and javadoc changes if needed.",,,other->maintenance->update,other->maintenance->update,other->maintenance->update
+mulesoft/mule,https://github.com/mulesoft/mule/blob/master/CONTRIBUTING.md,\,,,,,
+astubbs/spring-modules,\,\,,,,,
+apache/james-project,https://james.apache.org/contribute.html,"Anything not explicitly mentioned in this document should adhere to the official Sun Java Coding Conventions
+Javadoc MUST exist on all API methods. Contributing a missing javadoc for any method, class, variable, etc., will be GREATLY appreciated as this will help to improve the James project.",where to comment,Sun Guide,where->general_rules->explicit->all_methods ,where->general_rules->explicit->all_methods ,where->general_rules->explicit->all_methods 
+ibissource/iaf,https://github.com/ibissource/iaf/blob/master/CONTRIBUTING.md,"Each class that can be used in a configuration must contain the following documentation:
+Class level IbisDoc, not larger then 5 to 10 lines
+For each configurable attribute, IbisDoc must not be larger then 2 lines
+Any examples and more detailed information, that has to be incorperated in to the IbisManual, should be provided as a separate file(s) attached to the pull request
+
+Please ensure that your Javadoc comments are correct. Eclipse can check this for you",,,where->general_rules->explicit->all_classes other->readability->space_indent,where->general_rules->explicit->all_classes other->readability->space_indent,where->general_rules->explicit->all_classes other->readability->space_indent
+apache/isis,"https://github.com/apache/isis/blob/master/CONTRIBUTING.adoc
+https://isis.apache.org/conguide/2.0.0-M4/about.html
+https://isis.apache.org/conguide/2.0.0-M4/eclipse/_attachments/Apache-code-style-template.xml
+https://isis.apache.org/conguide/2.0.0-M4/eclipse/_attachments/Apache-code-style-formatting.xml",Apache Code Style enforced by Eclipse using the configuration files,,Apache Code Style,,,
+sigmah-dev/sigmah,\,\,,,,,
+gwtproject/gwt,http://www.gwtproject.org/makinggwtbetter.html,"Every file should have an Apache license header at the top, prefaced with a copyright notice. A package statement and import statements should follow, each block separated by a blank line. Next is the class or interface declaration. In the Javadoc comments, describe what the class or interface does.",what to comment,,what->required->functionality,what->required->functionality,what->required->functionality
+dbs-leipzig/gradoop,\,\,,,,,
+apache/poi,"http://poi.apache.org/devel/
+https://poi.apache.org/devel/resolutions/res001.html",\,,,,,
+androidannotations/androidannotations,https://github.com/androidannotations/androidannotations/wiki/HowToContributeCode,"Do not put any @author comment. Git keeps track of all your changes and @author does more harm then good.
+All annotations should have proper JavaDoc. Describe the feature, how it can be used and what limitation the annotation have and code examples. You can look at existing annotations for examples.
+","where to comment
+ what to comment",,where->project_rules->android_javadoc what->required->functionality what->required->usage what->required->code_example what->required->limitation what->forbidden->author_tag,where->project_rules->android_javadoc what->required->functionality what->required->usage what->required->code_example what->required->limitation what->forbidden->author_tag,where->project_rules->android_javadoc what->required->functionality what->required->usage what->required->code_example what->required->limitation what->forbidden->author_tag
+PEXPlugins/PermissionsEx,https://permissionsex.stellardrift.ca/contributing/style-guide,\,,,,,
+itext/itextpdf,https://itextpdf.com/en/start-contributing#rules,"All public API methods must be documented with JavaDoc. To see how we document our APIs, please check out the existing javadocs.
+We follow the rules contained in Oracle's Code Conventions for the Java Programming Language",where to comment,Oracle's Code Conventions,where->general_rules->explicit->all_methods ,where->general_rules->explicit->all_methods ,where->general_rules->explicit->all_methods 
+processing/processing,https://github.com/processing/processing/wiki/Style-Guidelines,"Always one space after the // in single line comments
+Two spaces before // at the end of a line (that has code as well)
+Try to use // comments inside functions, to make it easier to remove a whole block via /* */
+When making a fix related to an issue on Github, include the URL to the issue. Don't just put #3257 or something like that, use the URL. We can spare the extra characters: the extra letters won't make the PDE run slower, but will make it easier for someone returning to the code to look up the issue.
+
+Already commented code There are many commented-out sections of code. Moreso than is actually a good idea. Usually they’re the result of trying many different things before getting to a final/working solution. It also sometimes prevents me from going back and making the same mistake again. This is, of course, bad practice: The former should be fixed with documentation, the latter fixed by heavier reliance on the version control system. However, since one developer is doing the vast majority of the work, I don’t win style points by cleaning up code for people who want to peruse it—and it takes time away if I have to come back and finish debugging a feature (I'm a bit feeble-minded that way). Because development is sporadic, I often have to set something down before it's finished, so I keep the alternate bits around. Also, it's often the case that one version of the code works on one platform (or version of Java) and not another. These go in and out of testing as I move around between platforms.",what to comment,,other->readability->space_indent,what->forbidden->commented_code other->readability->space_indent,other->readability->space_indent
+riptano/brisk,\,\,,,,,
+Sloeber/arduino-eclipse-plugin,\,\,,,,,
+alibaba/canal,"https://github.com/alibaba/canal/blob/master/codeformat.xml
+https://github.com/alibaba/canal/blob/master/codetemplates.xml",Style enforced by Eclipse using the configuration files,,,,,
+httpcache4j/httpcache4j,\,\,,,,,
+matsim-org/matsim,https://www.matsim.org/docs/contributing/,"We try to follow the Java Code Conventions(https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
+Every public class should have the following items:
+
+For every class, a statement what it is meant for.
+For every class, a very rough description of what it does.
+For every class, the author should be specified with the @author-tag
+All these items should be written in a Javadoc block atop of the class.",what to comment,oracle,what->required->functionality what->required->usage what->required->author_info what->required->purpose ,what->required->functionality what->required->usage what->required->author_info what->required->purpose ,what->required->functionality what->required->usage what->required->author_info what->required->purpose 
+jenkinsci/github-oauth-plugin,https://github.com/jenkinsci/github-oauth-plugin/blob/master/CONTRIBUTING.md,Javadoc - it would be nice if Javadoc was complete.,,,,,
+esig/dss,\,\,,,,,
+spotify/docker-client,https://github.com/spotify/docker-client/blob/master/CONTRIBUTING.md,\,,,,,
+oracle/graal,https://www.graalvm.org/community/contributors/,\,,,,,
+jclouds/jclouds,"https://cwiki.apache.org/confluence/display/JCLOUDS/Contribute
+https://cwiki.apache.org/confluence/display/JCLOUDS/Writing+jclouds+Code
+https://cwiki.apache.org/confluence/display/JCLOUDS/Coding+Standards?preview=/48792672/49840135/eclipse-code-formatter.xml",Style enforced by Eclipse using the configuration files,,,,,
+apache/commons-vfs,https://github.com/apache/commons-vfs/blob/master/CONTRIBUTING.md,"For changes of a trivial nature to comments and documentation, it is not always necessary to create a new ticket in JIRA. In this case, it is appropriate to start the first line of a commit with '(doc)' instead of a ticket number.",,,,,
+xtreemfs/xtreemfs,\,\,,,,,
+IntellectualSites/PlotSquared,https://github.com/IntellectualSites/PlotSquared/blob/v6/CONTRIBUTING.md,\,,,,,
+eclipse/eclipse.jdt.debug,https://github.com/ifedorenko/eclipse.jdt.debug/blob/master/CONTRIBUTING,\,,,,,
+opensagres/xdocreport,https://github.com/opensagres/xdocreport/wiki/CodeFormatAndConvention,"Except for the license (MIT License instead of Apache License), we use the Maven Code Style and convention :
+
+http://maven.apache.org/developers/conventions/code.html (JavaDoc Convention to be discussed)",,,,,
+simeonradivoev/MatterOverdrive,https://github.com/simeonradivoev/MatterOverdrive/blob/1.10.2/CONTRIBUTING.md,\,,,,,
+apache/incubator-brooklyn,"http://brooklyn.apache.org/developers/code-standards.html
+http://brooklyn.apache.org/developers/how-to-contribute.html",\,,,,,
+apiman/apiman,"https://github.com/apiman/apiman
+https://github.com/apiman/apiman/blob/master/tools/src/eclipse/apiman-eclipse-formatter.xml",Style enforced by Eclipse using the configuration files,,,,,
+Stratio/stratio-cassandra,\,\,,,,,
+jnr/jnr-ffi,\,\,,,,,
+jersey/jersey,https://eclipse-ee4j.github.io/jersey/contribute.html,\,,,,,
+Staartvin/Autorank-2,\,\,,,,,
+alexruiz/fest-swing-1.x,\,\,,,,,
+spring-projects/spring-framework,"https://github.com/spring-projects/spring-framework/blob/master/CONTRIBUTING.md
+https://github.com/spring-projects/spring-framework/wiki/Code-Style","Use of @since
+@since should be added to every new class with the version of the framework in which it was introduced
+@since should be added to any new public and protected methods of an existing class
+
+The following template summarizes a typical use for the Javadoc of a method.
+In particular, please note:
+Use an imperative style (i.e. Return and not Returns) for the first sentence.
+No blank lines between the description and the parameter descriptions.
+If the description is defined with multiple paragraphs, start each of them with <p>.
+If a parameter description needs to be wrapped, do not indent subsequent lines (see parserContext).
+
+The Javadoc of a class has some extra rules that are illustrated by the sample below:
+Each class must have a @since tag with the version in which the class was introduced.
+The order of tags for class-level Javadoc is @author, @since and @see.
+In contrast to method-level Javadoc, the paragraphs of a class description are separated by blank lines
+
+The following are additional general rules to apply when writing Javadoc:
+Use {@code} to wrap code statements or values such as null.
+If a type is only referenced by a {@link} element, use the fully qualified name in order to avoid an unnecessary import declaration.
+
+(Line Wrapping) The one big exception to the above line wrapping rules is Javadoc where we aim to wrap around 80 characters for maximum readability in all kinds of contexts, e.g. reading on Github, on your phone, etc.",what to comment,,what->required->creation_date what->required->@code what->required->@link other->readability->space_indent other->readability->language,what->required->creation_date what->required->@code what->required->@link other->readability->space_indent other->readability->language other->readability->order_of_tags,what->required->creation_date what->required->@code what->required->@link other->readability->space_indent other->readability->language other->readability->order_of_tags
+Neamar/KISS,https://github.com/Neamar/KISS/blob/master/CONTRIBUTING.md,"Explain your changes, comment your code and make sure the CI is able to compile your code.",,,,,
+dnanexus/dx-toolkit,\,\,,,,,
+openhab/openhab1-addons,\,\,,,,,
+spacewalkproject/spacewalk,\,\,,,,,
+LibrePlan/libreplan,\,\,,,,,
+ArcBees/GWTP,"https://www.libreplan.dev/open-source/get-involved/
+http://dev.arcbees.com/gwtp/contributing/Contributing-Guidelines.html","Comments and Javadoc
+Every file should have an Apache license header at the top, prefaced with a copyright notice. A package statement and import statements should follow, each block separated by a blank line. Next is the class or interface declaration. In the Javadoc comments, describe what the class or interface does.",what to comment,,,what->required->functionality,what->required->functionality
+toddlipcon/hadoop,https://cwiki.apache.org/confluence/display/HADOOP/How+To+Contribute,"Javadoc
+Please also check the javadoc.  
+
+ mvn process-sources javadoc:javadoc-no-fork
+ firefox target/site/api/index.html
+Examine all public classes you've changed to see that documentation is complete, informative, and properly formatted. Your patch must not generate any javadoc warnings.  
+
+Jenkins includes a javadoc run on Java 8 and Java 11, it will fail if there are unbalanced HTML tags or <p/> clauses (use <p> here.  
+
+If Jenkins rejects a patch due to Java 8 or Java 11 javadoc failures, it is considered an automatic veto for the patch.",,,other->maintenance->update,,other->maintenance->update
+dma-ais/AisLib,\,\,,,,,
+hltfbk/Excitement-Open-Platform,https://github.com/hltfbk/Excitement-Open-Platform/wiki/Code-Style,"Documentation
+Every class / interface / enum should include a main comment in its beginning, describing:
+
+the purpose of the class
+its contents
+its usage
+and how it is related to other classes.
+The main comment should include also the author name (first name and surname, with no abbreviations) and the date when the class was created first.
+
+Each method must be paired with a comment describing its purpose, usage, parameters, return value. In particular, the comment must make explicit as any policies on its use beyond its type signature.
+
+The class and functions (methods) comments specified above should be in Java-Doc format. (Tip: in Eclipse use Alt+Shift+J to generate a javadoc skeleton.)
+
+Comments should be written in the code itself, describing the flow, i.e. describing what the code does. It is required when the code is not clear (i.e. self explaining), and recommended for any long code (long code = code with more that 5 lines).
+
+The best practice is writing in such a way that a programmer that will read your code will be able to understand it, without additional explanations.","where to comment
+ what to comment",,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->functionality what->required->usage what->required->purpose what->required->relationship,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->functionality what->required->usage what->required->author_info what->required->creation_date what->required->purpose what->required->relationship,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->functionality what->required->usage what->required->author_info what->required->creation_date what->required->purpose what->required->relationship
+itext/itext7,"https://github.com/itext/itext7/blob/develop/CONTRIBUTING.md
+https://github.com/itext/itext7/blob/develop/CodeConventions.md","All public API methods must be documented with JavaDoc. To see how we document our APIs, please check out the existing javadocs.
+We follow the rules contained in Oracle's Code Conventions for the Java Programming Language, with these additions:
+Wrap all code at 100 characters.",where to comment,Orcale Guide,where->general_rules->explicit->all_methods ,where->general_rules->explicit->all_methods ,where->general_rules->explicit->all_methods 
+CyanogenMod/android_libcore,\,\,,,,,
+rhq-project/rhq,https://docs.jboss.org/author/display/RHQ/Contributions.html,\,,,,,
+cdk/cdk,\,\,,,,,
+Cardshifter/Cardshifter,https://github.com/Cardshifter/Cardshifter/wiki/Developer-Guidelines,We would like everyone to follow the most common coding standard for the language you are coding in.,,,,,
+mikepenz/MaterialDrawer,\,\,,,,,
+apache/wicket,https://wicket.apache.org/contribute/,\,,,,,
+keeps/roda,"https://github.com/keeps/roda/blob/master/CONTRIBUTING.md
+https://github.com/keeps/roda/blob/master/documentation/Developers_Guide.md","To increase the changes of you code being accepted and merged into RODA source here's a checklist of things to go over before submitting a contribution:
+Has documentation (at least 80% of public API)",,,where->general_rules->explicit->all_methods,,where->general_rules->explicit->all_methods
+ciandt-dev/tech-gallery,\,\,,,,,
+advantageous/qbit,\,\,,,,,
+moneymanagerex/android-money-manager-ex,\,\,,,,,
+neo4j/neo4j,"https://github.com/neo4j/neo4j/blob/4.2/CONTRIBUTING.md
+http://neo4j.github.io/code-style/neo4j-eclipse.xml
+http://neo4j.github.io/code-style/neo4j-intellij.xml","Make sure you're familiar with the appropriate coding style (this varies by language so ask if you're in doubt)
+Style enforced by Eclipse using the configuration files",,,,,
+astrapi69/jaulp-wicket,\,\,,,,,
+grpc/grpc-java,https://github.com/grpc/grpc-java/blob/master/CONTRIBUTING.md,"We follow the Google Java Style Guide. Our build automatically will provide warnings for style issues. Eclipse and IntelliJ style configurations are commonly useful.  For IntelliJ 14, copy the style to ~/.IdeaIC14/config/codestyles/, start IntelliJ, go to File > Settings > Code Style, and set the Scheme to GoogleStyle.",,Google Guide,,,
+codinguser/gnucash-android,https://github.com/codinguser/gnucash-android/blob/master/.github/CONTRIBUTING.md,"Do write comments. You don't have to comment every line, but if you come up with something thats a bit complex/weird, just leave a comment. Bear in mind that you will probably leave the project at some point and that other people will read your code. Undocumented huge amounts of code are nearly worthless!
+
+Please make sure to document every method you write using Javadoc, even if the method seems trivial to you
+See this guide on how to write good Javadoc comments
+
+Documentation should be kept up-to-date. This means, whenever you add a new API method, add a new hook or change the database model, pack the relevant changes to the docs in the same pull request.",where to comment,,where->general_rules->explicit->all_methods where->general_rules->implicit->complex_code other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->implicit->complex_code other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->implicit->complex_code other->maintenance->update
+aosp-mirror/platform_frameworks_support,https://source.android.com/setup/contribute/code-style#use-javadoc-standard-comments,"Every file should have a copyright statement at the top, followed by package and import statements (each block separated by a blank line), and finally the class or interface declaration. In the Javadoc comments, describe what the class or interface does.
+Every class and nontrivial public method that you write must contain a Javadoc comment with at least one sentence describing what the class or method does. This sentence should start with a third person descriptive verb.
+You don't need to write Javadoc for trivial get and set methods such as setFoo() if all your Javadoc would say is ""sets Foo"". If the method does something more complex (such as enforcing a constraint or has an important side effect), then you must document it. If it's not obvious what the property ""Foo"" means, you should document it.
+Every method you write, public or otherwise, would benefit from Javadoc. Public methods are part of an API and therefore require Javadoc. Android doesn't enforce a specific style for writing Javadoc comments, but you should follow the instructions in How to Write Doc Comments for the Javadoc Tool.
+
+Use TODO comments for code that is temporary, a short-term solution, or good enough but not perfect. These comments should include the string TODO in all caps
+If your TODO is of the form ""At a future date do something"" make sure that you either include a specific date (""Fix by November 2005"") or a specific event (""Remove this code after all production mixers understand protocol V7."").
+
+If a comment line contains an example command or a literal URL longer than 100 characters, that line may be longer than 100 characters for ease of cut and paste.
+
+","where to comment
+ what to comment",,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->TODO other->readability->space_indent other->readability->language,where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->TODO other->readability->language,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->TODO other->readability->space_indent other->readability->language
+ibinti/bugvm,\,\,,,,,
+ow2-proactive/scheduling,\,\,,,,,
+bazelbuild/bazel,"https://bazel.build/basics/docs-style.html
+https://bazel.build/basics/getting_started.html","Download Google’s Java Code Style Scheme file for IntelliJ, import it (go to Preferences > Editor > Code Style > Java, click Manage, then Import) and use it when working on Bazel’s code.",,Google Guide,,,
+wicketstuff/core,"https://cwiki.apache.org/confluence/display/WICKET/Wicket+Source+Code+Style#WicketSourceCodeStyle-JavaDoc
+https://github.com/wicketstuff/core/wiki#code-formatting",Details can be found https://cwiki.apache.org/confluence/display/WICKET/Wicket+Source+Code+Style,,,other->readability->space_indent,what->required->functionality what->required->usage,other->readability->space_indent
+seedstack/seed,https://github.com/seedstack/seedstack/blob/master/CONTRIBUTING.md,\,,,,,
+Netflix/governator,\,\,,,,,
+eclipse/emf.compare,https://wiki.eclipse.org/EMF_Compare/Contributor_Guide,"The EMF Compare team uses Checkstyle with its own set of rules in order to have an homogeneous code style throughout the plugins and features.
+",,,,,
+jdmonin/JSettlers2,\,\,,,,,
+sleuthkit/autopsy,\,\,,,,,
+facebook/fresco,https://github.com/facebook/fresco/blob/master/CONTRIBUTING.md,follow the practice of Oracle's Coding Conventions for the Java Programming Language.,,Oracle Guide,,,
+FamilySearch/gedcomx-java,\,\,,,,,
+apache/axis2-java,http://axis.apache.org/axis2/java/core/overview.html#,\,,,,,
+apache/metron,"https://github.com/apache/metron/blob/master/CONTRIBUTING.md
+https://cwiki.apache.org/confluence/display/METRON/Development+Guidelines","Follow the Google Java Style Guide
+
+Code-Level Documentation
+Self-documenting code (variable, method, class) has a clear semantic name
+Accurate, sufficient for developers to code against
+Follows standard Javadoc conventions
+Loggers and logging levels covered if they do not follow our conventions (see below)
+System properties, configuration options, and resources covered
+Illegal arguments are properly documented as appropriate
+Package and overview Javadoc are updated as appropriate
+Javadoc comments are mandatory for all public APIs
+Generate Javadocs for release builds","where to comment
+ what to comment",Google Guide,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes other->maintenance->update ,where->general_rules->explicit->all_methods what->required->usage,where->general_rules->explicit->all_methods what->required->usage other->maintenance->update 
+apache/asterixdb,\,\,,,,,
+fabric8io/fabric8,\,\,,,,,
+openmicroscopy/bioformats,"https://github.com/ome/bioformats/blob/develop/CONTRIBUTING.md 
+https://docs.openmicroscopy.org/bio-formats/6.6.0/developers/code-formatting.html",\,,,,,
+geosdi/geo-platform,\,\,,,,,
+SlimRoms/packages_apps_SlimLauncher,\,\,,,,,
+orientechnologies/orientdb,https://orientdb.org/docs/3.0.x/misc/Contribute-to-OrientDB.html,"Code formatting
+v 3.1 and following
+Since v 3.1, OrientDB uses Google code formatter.
+
+In IntelliJ Idea, you can use this plugin https://plugins.jetbrains.com/plugin/8527-google-java-format
+
+From Maven, you can run mvn com.coveo:fmt-maven-plugin:format for automatic code format.
+
+v 3.0 and previous releases
+For previus versions (until 3.0) you can use eclipse java formatter config file, that you can find here: _base/ide/eclipse-formatter.xml.
+
+If you use IntelliJ IDEA you can install this plugin and use formatter profile mentioned above.",,Google Java Format?,,,
+tracecompass/tracecompass,https://wiki.eclipse.org/Trace_Compass/Code_Style,The project's coding style is defined in Eclipse project settings,,,,,
+sharding-sphere/sharding-sphere,https://github.com/apache/shardingsphere/blob/master/CONTRIBUTING.md,"Class for test case and @Test annotation do not need javadoc.
+Use English in all the logs and javadoc.
+Include Javadoc, todo and fixme only in the comments.
+Only public classes and methods need javadoc, other methods, classes and override methods do not need javadoc.",where to comment,,where->general_rules->explicit->all_methods where->general_rules->explicit->test_cases where->general_rules->explicit->none_in_overriding_methods other->readability->english,where->general_rules->explicit->all_methods where->general_rules->explicit->none_in_overriding_methods where->general_rules->explicit->none_in_test_cases other->readability->english,where->general_rules->explicit->all_methods where->general_rules->explicit->none_in_overriding_methods where->general_rules->explicit->none_in_test_cases other->readability->english
+jenkinsci/pmd-plugin,\,\,,,,,
+comunes/kune,https://github.com/comunes/kune/blob/master/DEV-GUIDE.md,\,,,,,
+opendatakit/javarosa,https://github.com/getodk/javarosa/blob/master/CONTRIBUTING.md,"For now, match the style of the code in the file you are editing.",,,,,
+EvoSuite/evosuite,\,\,,,,,
+TaintDroid/android_platform_frameworks_base,\,\,,,,,
+apache/tomcat,https://github.com/apache/tomcat/blob/master/CONTRIBUTING.md,Apache Tomcat has very loosely defined coding conventions ,,,,,
+jenkinsci/sauce-ondemand-plugin,"https://www.jenkins.io/participate/
+https://wiki.jenkins.io/display/JENKINS/Beginners+Guide+to+Contributing#BeginnersGuidetoContributing-Areyouinterestedinwritingcode%3F","In the core, we try to loosely follow the Oracle Java Code Conventions. Plugins are up to each owner, and we respect whatever choice they make.",,Oracle Guide,,,
+DV8FromTheWorld/JDA,"https://github.com/DV8FromTheWorld/JDA/wiki/5)-Contributing
+https://github.com/DV8FromTheWorld/JDA/wiki/6%29-JDA-Structure-Guide#javadoc","If your addition is not internal (e.g. an impl class or private method) you have to write documentation.
+For that please follow the JavaDoc template
+We put JavaDoc on the following targets:
+Concise description in https://github.com/DV8FromTheWorld/JDA/wiki/6%29-JDA-Structure-Guide#javadoc","where to comment
+ what to comment",, where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->@link other->readability->space_indent,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->@code what->required->@link other->readability->space_indent,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->@code what->required->@link other->readability->space_indent
+stripe/stripe-java,\,\,,,,,
+JFXtras/jfxtras-labs,\,\,,,,,
+eclipse/lsp4j,https://github.com/eclipse/lsp4j/blob/master/Contributing.md,\,,,,,
+bbottema/simple-java-mail,\,\,,,,,
+freedomotic/freedomotic,https://github.com/freedomotic/freedomotic/blob/master/CONTRIBUTING.md,\,,,,,
+wala/WALA,https://github.com/wala/WALA/blob/master/CONTRIBUTING.md,"DO format your code using Google Java Format. You can do so by running ./gradlew googleJavaFormat. A CI job will fail if your code is not formatted in this way.
+
+DO make liberal use of Javadoc and comments to document code.",,Google Java Format,,,
+real-logic/aeron,https://github.com/real-logic/aeron/blob/master/CONTRIBUTING.md,\,,,,,
+j256/ormlite-core,\,\,,,,,
+RPTools/maptool,https://github.com/RPTools/maptool/blob/main/doc/Code_Style_and_Guidelines.md,The Google Java Style Guide is incorporated by reference. Submitted code shall follow those guidelines unless modified by one or more of the following rules.,,Google Java Format,,,
+IntellectualSites/PlotSquared,"https://github.com/IntellectualSites/PlotSquared/blob/v5/CONTRIBUTING.md
+https://github.com/IntellectualSites/PlotSquared/blob/v5/code_style.xml","If you are planning to commit any changes to the project, it would be highly appreciated if you were to follow the project code style conventions. To make this easier we have provided settings that can be imported into your IDE.",,,,,
+vespa-engine/vespa,https://github.com/vespa-engine/vespa,\,,,,,
+sreichholf/dreamDroid,\,\,,,,,
+springside/springside4,\,\,,,,,
+dma-enav/EPD,\,\,,,,,
+jtalks-org/jcommune,\,\,,,,,
+OpenNMS/opennms,https://github.com/OpenNMS/opennms/blob/develop/CONTRIBUTING.md,\,,,,,
+dkpro/dkpro-core,https://dkpro.github.io/contributing/,"The CONTRIBUTORS.txt file is used to keep track of contributors. It is to be used in favor over author attributions in individual files, e.g. via @author tags. For @author tags in code copied from a third-party, see Integrating third-party code below.
+
+We use a style for formatting the source code in {product-name}. Our approach consists of two steps:
+DKPro code formatting profile - the profile configures your IDE to auto-format the code according to our guidelines as you go.
+Checkstyle - this tool is used to check if the source code is actually formatted according to our guidelines. It is run as part of a Maven build and the build fails if the code is not formatted properly.",what to comment,,what->forbidden->author_tag,what->forbidden->author_tag,what->forbidden->author_tag
+nitnelave/CreeperHeal,\,\,,,,,
+eclipse/eclipse.platform.text,\,\,,,,,
+wmixvideo/nfe,\,\,,,,,
+google/tink,"https://github.com/google/tink/blob/master/docs/CONTRIBUTING.md
+https://github.com/google/tink/blob/master/docs/JAVA-HACKING.md",\,,,,,
+floodlight/floodlight,\,\,,,,,
+CONNECT-Solution/CONNECT,\,\,,,,,
+VanirAOSP/frameworks_base,\,\,,,,,
+biojava/biojava,https://github.com/biojava/biojava/blob/master/CONTRIBUTING.md,"Please add javadocs following standard java conventions. Javadocs are a must for public facing API methods.
+Add @author tags to class javadocs.
+Be sure to add @since tags whenever adding a new public-facing API method/field/class.
+","where to comment
+ what to comment",,where->general_rules->explicit->all_methods what->required->author_info what->required->creation_date,where->general_rules->explicit->all_methods what->required->author_info what->required->creation_date,where->general_rules->explicit->all_methods what->required->author_info what->required->creation_date
+demoiselle/framework,\,\,,,,,
+resteasy/Resteasy,https://github.com/resteasy/Resteasy/blob/master/CONTRIBUTING.md,Make sure to follow the code style of the existing code.,,,,,
+strapdata/elassandra,https://github.com/strapdata/elassandra/blob/v6.8.4-strapdata/CONTRIBUTING.md,\,,,,,
+joniles/mpxj,\,\,,,,,
+opendaylight/mdsal,\,\,,,,,
+CyanogenMod/android_frameworks_base,\,\,,,,,
+AuthMe/AuthMeReloaded,https://github.com/AuthMe/AuthMeReloaded/wiki/AuthMe-Coding-Styleguide,"Maintainability
+Program for an audience �?let others benefit from the effort you've spent in analyzing a problem by writing comments and JavaDoc for code that is not obvious:
+Similarly, create issues in the issue tracker for larger problems or improvements instead of just writing a TODO comment. TODO comments are guaranteed to get forgotten if they are not actively tended to.
+
+JavaDoc
+Use the third person (""Gets the player's name"") or the imperative mood (""Get the player's name""); it should be consistent within a class. JavaDoc should briefly explain what the method does and provide additional information to the developer.
+
+Put an empty line between the description and the first @param.",what to comment,,where->general_rules->implicit->complex_code where->general_rules->implicit->nontrivial_public_method what->required->functionality what->forbidden->TODO other->readability->space_indent other->readability->language,what->required->functionality what->forbidden->TODO other->readability->space_indent other->readability->language,where->general_rules->implicit->complex_code where->general_rules->implicit->nontrivial_public_method what->required->functionality what->forbidden->TODO other->readability->space_indent other->readability->language
+candlepin/candlepin,\,\,,,,,
+magefree/mage,\,\,,,,,
+oblac/jodd,"https://github.com/oblac/jodd/blob/master/CONTRIBUTING.md
+https://github.com/oblac/jodd/blob/master/STYLEGUIDE.md","For now, we are not able to maintain deprecated methods and the use of @Since tag versions. We simply don't have enough resources for that atm, sorry. It's better not to have it, but to have it all wrong.
+
+Each benchmark class must contain results in the Javadoc of the class: just copy/paste whatever is the JMH output.",what to comment,,what->forbidden->since_tag,what->forbidden->since_tag,what->forbidden->since_tag
+apache/jmeter,https://github.com/apache/jmeter/blob/master/CONTRIBUTING.md,Your coding style is similar to ours.,,,,,
+apache/mina,\,\,,,,,
+dana-i2cat/opennaas,\,\,,,,,
+vt-middleware/ldaptive,\,\,,,,,
+real-logic/simple-binary-encoding,https://github.com/real-logic/simple-binary-encoding/blob/master/CONTRIBUTING.md,"When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.",,,,,
+JCTools/JCTools,\,\,,,,,
+mdht/mdht,\,\,,,,,
+liferay/com-liferay-commerce,\,\,,,,,
+Twitter4J/Twitter4J,http://twitter4j.org/en/development.html,Source code need to respect Code Conventions for the Java(TM) Programming Language (https://www.oracle.com/java/technologies/javase/codeconventions-contents.html) as much as possible. And indentation is four spaces.,,Orcale Guide,,,
+geosolutions-it/imageio-ext,\,\,,,,,
+apache/commons-math,"https://github.com/apache/commons-math/blob/master/CONTRIBUTING.md
+https://commons.apache.org/patches.html",Respect the original code style:,,,,,
+fbacchella/jrds,\,\,,,,,
+hazelcast/hazelcast,https://github.com/hazelcast/hazelcast/blob/master/CONTRIBUTING.md,"Before you push, run the command mvn clean package -DskipTests -P checkstyle,spotbugs in your terminal and fix the CheckStyle and SpotBugs errors if any. Push your PR once it is free of CheckStyle and SpotBugs errors.",,,,,
+kuali/rice,https://wiki.kuali.org/display/KULRICE/Javadoc+Standards,see the link,"where to comment
+ what to comment",,where->general_rules->explicit->all_methods what->required->author_info other->readability->space_indent,where->general_rules->explicit->all_methods what->required->functionality what->required->usage what->required->author_info,where->general_rules->explicit->all_methods what->required->functionality what->required->usage what->required->author_info
+eclipse/che,https://github.com/eclipse/che/blob/master/CONTRIBUTING.md,"Code produced is complete
+No TODO comments left in the PR source code.",what to comment,,what->required->TODO,what->required->TODO,what->required->TODO
+ATLauncher/ATLauncher,https://github.com/ATLauncher/ATLauncher/blob/master/CONTRIBUTING.md,\,,,,,
+apache/avro,https://cwiki.apache.org/confluence/display/AVRO/How+To+Contribute,"For Java code we use Spotless to format the code to comply with Avro's code style conventions (see above). Automatic formatting relies on Avro's Eclipse JDT formatter definition. You can use the same definition to auto format from Eclipse or from IntelliJ configuring the Eclipse formatter plugin.
+
+Examine all public classes you've changed to see that documentation is complete, informative, and properly formatted. Your patch must not generate any javadoc warnings.",where to comment,,other->maintenance->update,where->general_rules->explicit->all_classes other->maintenance->update,other->maintenance->update
+Caleydo/caleydo,\,\,,,,,
+openmicroscopy/openmicroscopy,https://docs.openmicroscopy.org/contributing/java-development.html,\,,,,,
+amaembo/streamex,\,\,,,,,
+JMRI/JMRI,\,\,,,,,
+sigmoidanalytics/spork,https://cwiki.apache.org/confluence/display/pig/HowToContribute,"All public classes and methods should have informative Javadoc comments.
+Do not use @author tags.
+Code should be formatted according to Sun's conventions. We use four spaces (not tabs) for indentation.
+
+Examine all public classes you've changed to see that documentation is complete and informative. Your patch must not generate any javadoc warnings.
+
+Please do not:
+comment out code that is now obsolete: just remove it.
+insert comments around each change, marking the change: folks can use subversion to figure out what's changed and by whom.
+
+Please do:
+comment code whose function or rationale is not obvious;
+
+
+
+
+
+","where to comment
+ what to comment",Sun Guide,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->forbidden->author_tag what->forbidden->commented_code other->maintenance->update ,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->maintenance->update ,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->maintenance->update 
+apache/hadoop-hdfs,\,\,,,,,
+groovy/groovy-core,https://groovy.apache.org/,\,,,,,
+jop-devel/jop,\,\,,,,,
+querydsl/querydsl,\,\,,,,,
+vaadin/framework,https://github.com/vaadin/framework/blob/master/CONTRIBUTING.md,"Check your patch for basic style violations. If you use eclipse, use the formatting rules preconfigured in the project to make life easier for all involved, and configure save actions as described in README.md.",,,,,
+BukkitAPI-Translation-Group/Chinese_BukkitAPI,\,\,,,,,
+sdl/dxa-web-application-java,\,\,,,,,
+triplea-game/triplea,\,\,,,,,
+spring-projects/spring-ws,https://github.com/spring-projects/spring-ws/blob/master/CONTRIBUTING.adoc,"Add yourself as an @author to the .java files that you modify substantially (more than cosmetic changes).
+Add some Javadocs.
+",what to comment,,what->required->author_info,what->required->author_info,what->required->author_info
+apache/systemml,https://github.com/apache/systemds/blob/master/CONTRIBUTING.md,"Before contributing a pull request, we highly suggest applying a code formatter to the written code.
+We have provided at profile for java located in Codestyle File ./docs/CodeStyle.eclipse.xml.",,,,,
+arianne/stendhal,\,\,,,,,
+helma-org/helma,\,\,,,,,
+imagej/imagej,\,\,,,,,
+atomix/atomix,\,\,,,,,
+apache/httpcomponents-core,\,\,,,,,
+RestComm/jdiameter,\,\,,,,,
+apache/apex-malhar,http://apex.apache.org/contributing.html,Ensure appropriate JavaDoc comments have been added,,,,,
+krasserm/ipf,\,\,,,,,
+PCGen/pcgen-deprecated,https://github.com/PCGen/pcgen-deprecated#how-do-i-contribute,\,,,,,
+eSignLive/esl.sdk.java,\,\,,,,,
+cuba-platform/cuba,https://github.com/cuba-platform/cuba/blob/master/CONTRIBUTING.md,"All public interfaces, classes and their public methods must have JavaDoc statement (excluding entities and simple getters/setters).",where to comment,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method
+hawkular/hawkular-agent,\,\,,,,,
+forcedotcom/SalesforceMobileSDK-CordovaPlugin,\,\,,,,,
+apache/cxf,http://cxf.apache.org/coding-guidelines.html,For Eclipse there is a CXFCodeFormatter.xml you can use.,,,,,
+MER-C/wiki-java,https://github.com/MER-C/wiki-java/blob/master/Contributing.md,\,,,,,
+apache/maven-wagon,"https://github.com/apache/maven-wagon#making-and-submitting-changes
+https://maven.apache.org/developers/conventions/code.html",\,,,,,
+vaadin/charts,\,\,,,,,
+lessthanoptimal/BoofCV,\,\,,,,,
+optimatika/ojAlgo,\,\,,,,,
+Evervolv/android_frameworks_base,\,\,,,,,
+kiegroup/kie-wb-common,https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/master/README.md,"Why do you not accept @author lines in your source code?
+Because the author tags in the java files are a maintenance nightmare
+Because the author tags promote code ownership, which is bad in the long run.
+Credit to the authors is given.
+
+",what to comment,,what->required->author_info,what->forbidden->author_tag,what->forbidden->author_tag
+compomics/compomics-utilities,\,\,,,,,
+webanno/webanno,\,\,,,,,
+joel-costigliola/assertj-core,https://github.com/assertj/assertj-core/blob/main/CONTRIBUTING.md,"Write complete Javadocs for each assertion method and include a code example (succeeding and failing assertion(s)).
+
+A good javadoc example taken from AbstractCharSequenceAssert.containsSequence including:
+assertion description
+a code example showing how to use the assertion (succeeding and failing assertion)
+parameters description (if any)
+exceptions description
+since tag (e.g. @since 3.9.0)
+
+","where to comment
+ what to comment",,where->project_rules->assertion_javadoc,where->project_rules->assertion_javadoc what->required->usage what->required->code_example what->required->creation_date,where->project_rules->assertion_javadoc
+psi-probe/psi-probe,https://github.com/psi-probe/psi-probe/blob/master/CONTRIBUTING.md,\,,,,,
+nutzam/nutz,https://github.com/nutzam/nutz/blob/master/CONTRIBUTING.md,\,,,,,
+visad/visad,\,\,,,,,
+SlimRoms/frameworks_base,\,\,,,,,
+eclipse/rt.equinox.framework,\,\,,,,,
+elastic/elasticsearch,"https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md
+https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#javadoc","Good Javadoc can help with navigating and understanding code. Elasticsearch has some guidelines around when to write Javadoc and when not to, but note that we don't want to be overly prescriptive. The intent of these guidelines is to be helpful, not to turn writing code into a chore.
+
+The short version
+Always add Javadoc to new code.
+Add Javadoc to existing code if you can.
+Document the ""why"", not the ""how"", unless that's important to the ""why"".
+Don't document anything trivial or obvious (e.g. getters and setters). In other words, the Javadoc should add some value.
+The long version
+If you add a new Java package, please also add package-level Javadoc that explains what the package is for. This can just be a reference to a more foundational / parent package if appropriate. An example would be a package hierarchy for a new feature or plugin - the package docs could explain the purpose of the feature, any caveats, and possibly some examples of configuration and usage.
+New classes and interfaces must have class-level Javadoc that describes their purpose. There are a lot of classes in the Elasticsearch repository, and it's easier to navigate when you can quickly find out what is the purpose of a class. This doesn't apply to inner classes or interfaces, unless you expect them to be explicitly used outside their parent class.
+New public methods must have Javadoc, because they form part of the contract between the class and its consumers. Similarly, new abstract methods must have Javadoc because they are part of the contract between a class and its subclasses. It's important that contributors know why they need to implement a method, and the Javadoc should make this clear. You don't need to document a method if it's overriding an abstract method (either from an abstract superclass or an interface), unless your implementation is doing something ""unexpected"" e.g. deviating from the intent of the original method.
+Following on from the above point, please add docs to existing public methods if you are editing them, or to abstract methods if you can.
+Non-public, non-abstract methods don't require Javadoc, but if you feel that adding some would make it easier for other developers to understand the code, or why it's written in a particular way, then please do so.
+Properties don't need to have Javadoc, but please add some if there's something useful to say.
+Javadoc should not go into low-level implementation details unless this is critical to understanding the code e.g. documenting the subtleties of the implementation of a private method. The point here is that implementations will change over time, and the Javadoc is less likely to become out-of-date if it only talks about the what is the purpose of the code, not what it does.
+Examples in Javadoc can be very useful, so feel free to add some if you can reasonably do so i.e. if it takes a whole page of code to set up an example, then Javadoc probably isn't the right place for it. Longer or more elaborate examples are probably better suited to the package docs.
+Test methods are a good place to add Javadoc, because you can use it to succinctly describe e.g. preconditions, actions and expectations of the test, more easily that just using the test name alone. Please consider documenting your tests in this way.
+Sometimes you shouldn't add Javadoc:
+Where it adds no value, for example where a method's implementation is trivial such as with getters and setters, or a method just delegates to another object.
+However, you should still add Javadoc if there are caveats around calling a method that are not immediately obvious from reading the method's implementation in isolation.
+You can omit Javadoc for simple classes, e.g. where they are a simple container for some data. However, please consider whether a reader might still benefit from some additional background, for example about why the class exists at all.
+Not all comments need to be Javadoc. Sometimes it will make more sense to add comments in a method's body, for example due to important implementation decisions or ""gotchas"". As a general guide, if some information forms part of the contract between a method and its callers, then it should go in the Javadoc, otherwise you might consider using regular comments in the code. Remember as well that Elasticsearch has extensive user documentation, and it is not the role of Javadoc to replace that.
+Please still try to make class, method or variable names as descriptive and concise as possible, as opposed to relying solely on Javadoc to describe something.
+Use @link and @see to add references, either to related resources in the codebase or to relevant external resources.
+If you need help writing Javadoc, just ask!
+Finally, use your judgement! Base your decisions on what will help other developers - including yourself, when you come back to some code 3 months in the future, having forgotten how it works.","what to comment
+where to comment",Google Guide (备注，加了where to comment),where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->none_in_overriding_methods where->general_rules->explicit->none_in_test_cases other->maintenance->update ,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->test_cases where->general_rules->explicit->none_in_overriding_methods what->required->code_example what->required->purpose what->required->@link what->required->test other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->test_cases where->general_rules->explicit->none_in_overriding_methods what->required->code_example what->required->purpose what->required->@link what->required->test other->maintenance->update
+ldtteam/minecolonies,https://github.com/ldtteam/minecolonies#contributing,\,,,,,
+vitrivr/cineast,https://github.com/vitrivr/cineast#contribution,Cineast primarily uses the Google Java Styleguide.,,Google Guide,,,
+SimpleAOSP-Lollipop/platform_frameworks_base,\,\,,,,,
+vaadin/flow,https://github.com/vaadin/flow/blob/master/CONTRIBUTING.md,\,,,,,
+sbmlteam/jsbml,https://github.com/sbmlteam/jsbml/blob/master/CONTRIBUTING.md,\,,,,,
+flixel-gdx/flixel-gdx,\,\,,,,,
+cwensel/cascading,https://github.com/cwensel/cascading/blob/wip-4.0/CONTRIBUTING.md,\,,,,,
+yahoo/fili,https://github.com/yahoo/fili/blob/master/CONTRIBUTING.md,"We also strive for very high-quality code, with the belief that quality code is easier to maintain, easier to understand, and has fewer bugs. To help keep the quality bar high, we have an automated style checker (Checkstyle) with rules that should catch most of the common style issues. The full details of what the checker looks for can be found in our checkstyle config, but the Google Java style guide covers most of it, and is very close to our style.",,Google Guide,,,
+codefollower/H2-Research,\,\,,,,,
+thothbot/parallax,\,\,,,,,
+seasarorg/dbflute,\,\,,,,,
+hashgraph/hedera-sdk-java,https://github.com/hashgraph/hedera-sdk-java/blob/master/CONTRIBUTING.md,\,,,,,
+openzipkin/brave,\,\,,,,,
+apereo/cas,https://apereo.github.io/cas/developer/Contributor-Guidelines.html,\,,,,,
+jrtom/jung,https://github.com/jrtom/jung/blob/master/CONTRIBUTING.md,The JUNG project uses google-java-format to maintain a consistent code style.,,Google Guide,,,
+apache/directory-studio,\,\,,,,,
+sakaiproject/sakai,https://github.com/sakaiproject/sakai/blob/master/CONTRIBUTING.md,Code style - Does it match the existing code in the file?,,,,,
+scouter-project/scouter,https://github.com/scouter-project/scouter/blob/master/scouter.document/tech/Developer-Guide.md,\,,,,,
+apache/kafka,"https://github.com/apache/kafka/blob/trunk/CONTRIBUTING.md
+https://kafka.apache.org/contributing.html
+https://cwiki.apache.org/confluence/display/KAFKA/Contributing+Code+Changes
+https://kafka.apache.org/coding-guide.html","Clear code is preferable to comments. When possible make your naming so good you don't need comments. When that isn't possible comments should be thought of as mandatory, write them to be read.
+Don't be sloppy. Don't check in commented out code: we use version control, it is still there in the history. Don't leave TODOs in the code or FIXMEs if you can help it. Don't leave println statements in the code. Hopefully this is all obvious.
+
+",what to comment,,what->forbidden->commented_code what->forbidden->TODO,what->forbidden->commented_code what->forbidden->TODO,what->forbidden->commented_code what->forbidden->TODO
+javamonkey/beetl2.0,\,\,,,,,
+ggp-org/ggp-base,\,\,,,,,
+iDevicesInc/SweetBlue,\,\,,,,,
+opensourceBIM/BIMserver,\,\,,,,,
+modelmapper/modelmapper,https://github.com/modelmapper/modelmapper/blob/master/CONTRIBUTING.md,\,,,,,
+ShifuML/shifu,\,\,,,,,
+mysql/mysql-connector-j,https://github.com/mysql/mysql-connector-j/blob/release/8.0/CONTRIBUTING.md,\,,,,,
+apache/pulsar,"https://pulsar.apache.org/en/contributing/
+https://pulsar.apache.org/en/coding-guide/","Apache Pulsar code follows the Sun Java Coding Convention, with the following additions.
+No @author tags in any javadoc.
+TODOs should be associated to at least one issue.
+",what to comment,Sun Guide,,what->required->TODO what->forbidden->author_tag ,what->required->TODO what->forbidden->author_tag 
+CESNET/perun,\,\,,,,,
+apollo-rsps/apollo,https://github.com/apollo-rsps/apollo/blob/kotlin-experiments/CONTRIBUTING.md#style-guide,"The Apollo project uses a coding style based on the Google style guide.
+Clear code is preferable to comments. When possible make your naming so good you don't need comments. When that isn't possible comments should be thought of as mandatory, write them to be read.
+Don't be sloppy. Don't check in commented out code: we use version control, it is still there in the history. Don't leave TODOs in the code or FIXMEs if you can help it. Don't leave println statements in the code. Hopefully this is all obvious.
+",what to comment,Google Guide,what->forbidden->commented_code what->forbidden->TODO ,what->forbidden->commented_code what->forbidden->TODO ,what->forbidden->commented_code what->forbidden->TODO 
+usnistgov/jsip,https://github.com/usnistgov/jsip/blob/master/contributing.txt,\,,,,,
+eclipse/californium,https://github.com/eclipse/californium/blob/master/CONTRIBUTING.md,\,,,,,
+wso2/siddhi,https://siddhi.io/community/contribution/,\,,,,,
+google/j2objc,https://github.com/google/j2objc/blob/master/CONTRIBUTING.md,\,,,,,
+owlcs/owlapi,\,\,,,,,
+aol/cyclops,https://github.com/aol/cyclops/blob/master/CONTRIBUTING.md,\,,,,,
+boalang/compiler,\,\,,,,,
+jdbi/jdbi,https://github.com/jdbi/jdbi/blob/master/CONTRIBUTING.md,"if a piece of API must be discouraged after public release, mark it @Deprecated and keep it functionally intact;",,,,,
+nativelibs4java/JavaCL,\,\,,,,,
+mongodb/mongo-java-driver,https://github.com/mongodb/mongo-java-driver/blob/master/CONTRIBUTING.md,\,,,,,
+aosp-mirror/platform_dalvik,https://source.android.com/setup/contribute/code-style#use-javadoc-standard-comments,same as aosp,"where to comment
+ what to comment",,where->general_rules->explicit->all_methods where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->TODO other->readability->language,where->general_rules->explicit->all_methods where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->TODO other->readability->language,where->general_rules->explicit->all_methods where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->TODO other->readability->language
+Internet2/grouper,\,\,,,,,
+j-easy/easy-batch,\,\,,,,,
+google/guava,https://github.com/google/guava/blob/master/CONTRIBUTING.md,Files should be formatted according to Google's Java style guide.,,Google Guide,,,
+northern-bites/nbites,https://github.com/northern-bites/nbites/wiki#contribution-guide,\,,,,,
+charite/jannovar,https://github.com/charite/jannovar#developer-guidelines,"Java code should follow IntelliJ default formatting and the Ctrl+Alt+l formatter. Eclipse users please use Eclipse Code Formatter. Enable the ""wrap at right margin"" option for JavaDoc.",,,,,
+raphw/byte-buddy,https://bytebuddy.net/#/develop,\,,,,,
+OpenNTF/SocialSDK,\,\,,,,,
+jMonkeyEngine/jmonkeyengine,https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/CONTRIBUTING.md,Has comments around ugly code explaining why it is ugly.,,,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code
+ThreeTen/threetenbp,\,\,,,,,
+ppareit/swiftp,\,\,,,,,
+ForgeRock/openam-community-edition,\,\,,,,,
+simbrain/simbrain,\,\,,,,,
+asnowfix/android_dalvik,\,\,,,,,
+jajuk-team/jajuk,http://www.jajuk.info/developer_guide.html,"For formatting reasons, use /* */ for long comments in the methods, not several //
+Please remove any dead code",,,what->forbidden->commented_code other->readability->space_indent,what->forbidden->commented_code other->readability->space_indent,what->forbidden->commented_code other->readability->space_indent
+eclipse/emf,\,\,,,,,
+samtools/htsjdk,https://github.com/samtools/htsjdk#code-style,"Style guides files are included for Intellij and Eclipse. These are a variation of the Google Java Style with 4 space indentation. This style is suggested for new code but not rigidly checked. We allow for contributors to deviate from the style when it improves clarity or to match surrounding code. Existing code does not necessarily conform to this and does not need to be modified to do so, but users are encouraged to correct the formatting of code that they modify.",,Google Guide,,,
+Red5/red5-server-common,\,\,,,,,
+libgdx/libgdx,https://libgdx.com/dev/contributing/,"If you create a new class, please add documentation that explains the usage and scope of the class. You don’t have to add javadocs for methods that are self explanatory.
+If your class is thread safe, mention it in the documentation. Its assumed that libGDX classes are not thread safe by default, so please mention it.",what to comment,,where->general_rules->explicit->all_classes what->required->limitation,where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->required->limitation,where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->required->limitation
+BanManagement/BanManager,\,\,,,,,
+JBEI/ice,\,\,,,,,
+openmrs/openmrs-module-webservices.rest,\,\,,,,,
+codenvy-legacy/ide,\,\,,,,,
+kumpelblase2/Remote-Entities,\,\,,,,,
+scylladb/scylla-tools-java,https://github.com/scylladb/scylla-tools-java/blob/master/CONTRIBUTING.md,\,,,,,
+arquillian/arquillian-cube,\,\,,,,,
+julianhyde/optiq,https://github.com/julianhyde/optiq/blob/retired/README-old.md,\,,,,,
+marklogic-community/ml-app-deployer,https://github.com/marklogic-community/ml-app-deployer/blob/master/CONTRIBUTING.md,\,,,,,
+TeamExodus/frameworks_base,\,\,,,,,
+kaitoy/pcap4j,https://github.com/kaitoy/pcap4j#contributing-code,This project follows Google Java Style Guide. Execute the following command to format your code: mvnw com.coveo:fmt-maven-plugin:format,,Google Guide,,,
+brunoribeiro/sql-parser,\,\,,,,,
+AOKP/frameworks_base,\,\,,,,,
+RestComm/jain-sip,https://github.com/RestComm/jain-sip/blob/master/contributing.txt,\,,,,,
+eclipse-ee4j/eclipselink,https://github.com/eclipse-ee4j/eclipselink/blob/master/CONTRIBUTING.md,\,,,,,
+ps3mediaserver/ps3mediaserver,\,\,,,,,
+kubernetes-client/java,https://github.com/kubernetes-client/java/blob/master/CONTRIBUTING.md,\,,,,,
+apache/ant,https://github.com/apache/ant/blob/master/CONTRIBUTING.md,\,,,,,
+NitorCreations/nflow,\,\,,,,,
+jitsi/jitsi,"https://github.com/jitsi/jitsi/blob/master/CONTRIBUTING.md
+https://desktop.jitsi.org/Documentation/CodeConvention","@param tag values in javadoc do not have any indentation
+
+DOCUMENT EVERYTHING
+Every method and every class, whether public or internal, MUST start out with a documentation (javadoc) comment that describes what the method (class) does. For methods the docu","what to comment
+where to comment",,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->member_fields what->required->usage,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->member_fields what->required->functionality what->required->usage,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->member_fields what->required->functionality what->required->usage
+apache/commons-collections,https://github.com/apache/commons-collections/blob/master/CONTRIBUTING.md,\,,,,,
+apache/hadoop,https://cwiki.apache.org/confluence/display/HADOOP/How+To+Contribute,"All public classes and methods should have informative Javadoc comments.
+Do not use @author tags.
+Code should be formatted according to Sun's conventions. We use four spaces (not tabs) for indentation.
+
+Examine all public classes you've changed to see that documentation is complete and informative. Your patch must not generate any javadoc warnings.
+
+Please do not:
+comment out code that is now obsolete: just remove it.
+insert comments around each change, marking the change: folks can use subversion to figure out what's changed and by whom.
+
+Please do:
+comment code whose function or rationale is not obvious;
+
+
+
+
+
+","where to comment
+ what to comment",Sun's conventions,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->forbidden->commented_code other->maintenance->update ,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->readability->space_indent , where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->readability->space_indent other->maintenance->update 
+netarchivesuite/netarchivesuite,https://sbforge.org/display/NAS/Coding+Guidelines,"Public methods should always check that their arguments follow the JavaDoc restriction with respect to being null, empty, non-negative etc. The ArgumentNotValid class has a number of useful methods for this.
+
+JavaDoc is strongly encouraged, as the code might explain what happens, but not the why; the JavaDoc must describe the intent of the function, including assumptions and invariants as well as expectations of the arguments. Please add and improve as needed.",what to comment,,what->required->usage what->required->purpose,what->required->purpose,what->required->usage what->required->purpose
+apache/jackrabbit,\,\,,,,,
+cbeust/testng,https://github.com/cbeust/testng/blob/68feee159051faad702b017b7a823faebe9ac99a/.github/CONTRIBUTING.md,"add your code, add javadocs,",,,,,
+amzn/exoplayer-amazon-port,https://github.com/amzn/exoplayer-amazon-port/blob/amazon/r2.12.1/CONTRIBUTING.md,\,,,,,
+jponge/izpack,\,\,,,,,
+virgo47/javasimon,https://github.com/virgo47/javasimon/blob/master/docs/Development.md,"Line comment behind statement is separated with a single space. 
+Javadoc needs to be updated when API is changed (should corellate with changes of major/minor versions, not with patch versions). Repository docs needs to be cloned/pulled, and newly built Javadoc is to be copied after release (see mvn-manual-release.bat) to docs/javadoc/api/<major.minor>.
+",,,other->readability->space_indent other->maintenance->update,,other->readability->space_indent other->maintenance->update
+linkedin/ambry,\,\,,,,,
+typetools/checker-framework,https://github.com/typetools/checker-framework/blob/master/CONTRIBUTING.md,\,,,,,
+xerial/snappy-java,\,\,,,,,
+Azure/azure-sdk-for-java,https://github.com/Azure/azure-sdk-for-java/blob/master/CONTRIBUTING.md,\,,,,,
+apache/jclouds,"https://cwiki.apache.org/confluence/display/JCLOUDS/How+to+Contribute
+https://cwiki.apache.org/confluence/display/JCLOUDS/Coding+Standards",jclouds uses Checkstyle to enforce a consistent coding style. Configure your IDE or run mvn checkstyle:checkstyle --quiet -Dcheckstyle.output.file=/dev/stdout -Dcheckstyle.output.format=plain before submitting pull requests.,,,,,
+eclipse/eclipse.platform.ui,https://wiki.eclipse.org/Platform_UI/How_to_Contribute,"Follow the Eclipse Platform's Development Conventions and Guidelines.
+
+Write/update Javadoc for all API you introduce/change.
+
+Important architectural explanations should go into code comments, not just into the commit message.
+","where to comment
+ what to comment",,other->maintenance->update,where->general_rules->explicit->all_methods what->required->functionality other->maintenance->update,where->general_rules->explicit->all_methods what->required->functionality other->maintenance->update
+AKSW/RDFUnit,\,\,,,,,
+ogrisel/mahout,https://mahout.apache.org/developers/how-to-contribute,"All public classes and methods should have informative Javadoc comments.
+
+Please do not:
+comment out code that is now obsolete: just remove it.
+insert comments around each change, marking the change: folks can use subversion to figure out what’s changed and by whom.
+
+Please do:
+comment code whose function or rationale is not obvious;
+
+
+","where to comment
+ what to comment",,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->forbidden->commented_code other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->commented_code other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->functionality what->required->purpose what->forbidden->commented_code other->maintenance->update
+mulesoft-labs/raml-for-jax-rs,\,\,,,,,
+openstreetmap/osmosis,\,\,,,,,
+omnirom/android_frameworks_base,\,\,,,,,
+wso2/carbon-apimgt,\,\,,,,,
+FeatureIDE/FeatureIDE,\,\,,,,,
+branflake2267/GWT-Maps-V3-Api,\,\,,,,,
+thymeleaf/thymeleaf-spring,https://github.com/thymeleaf/thymeleaf-spring/blob/3.0-master/CONTRIBUTING.markdown,"All comments, names of classes and variables, log messages, etc. must be in English.
+Include a block comment (/* ... */) for any non-trivial algorithm you develop. ""Non-trivial"" usually means you had to make some design decisions to do things in a certain way. Your comment should explain why you wrote the code the way you wrote it. Do not write obvious comments that explain what the code does; the code should be clear and expressive enough so the what and how of it is obvious.
+All public methods and classes directly available to users should have comprehensive JavaDoc comments.
+","where to comment
+ what to comment",,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code other->readability->english,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->purpose other->readability->english,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->required->purpose other->readability->english
+h2database/h2database,\,\,,,,,
+speedment/speedment,https://github.com/speedment/speedment/blob/master/CONTRIBUTING.md,Write JavaDoc to your methods and classes,,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes
+openmrs/openmrs-core,"https://github.com/openmrs/openmrs-core/blob/master/CONTRIBUTING.md
+https://wiki.openmrs.org/x/MxEz","Do not comment out code
+Do not leave commented out code in the source files. Just remove it. Others will think this has been left there for a purpose and thus will probably not dare to delete it which will leave this commented out code hanging around forever. There are some exceptions of course, such as: ""When I'm pretty sure it needs re-enabled at some point, and to make sure I don't forget why that is, I leave a clear TODO comment, e.g. ""TODO this needs re-enabled when TRUNK-XXXX is fixed"". Most IDEs are good at parsing out all TODO statements."" Rowan Seymour
+
+All classes and interfaces should, at a minimum, have a Javadoc comment at the class level
+Public methods should have a Javadoc comment
+Please note that the commenting style from most textbooks is only a good practice when the comments are intended for a student learning to program. It is not intended for professional programmers. Take a look at these best practices for commenting your code.
+Code that performs any non-obvious task should be documented for clarification
+
+Use both the @Deprecated annotation and the @deprecated javadoc comment
+
+
+
+
+","where to comment
+ what to comment",,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->forbidden->commented_code,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->TODO what->forbidden->commented_code,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->nontrivial_public_method what->forbidden->commented_code
+PCGen/pcgen,\,\,,,,,
+encog/encog-java-core,\,\,,,,,
+deeplearning4j/nd4j,https://github.com/deeplearning4j/nd4j#contribute,Note the repository follows the Google Java style,,Google Guide,,,
+greenrobot/greenDAO,https://github.com/greenrobot/greenDAO/blob/master/CONTRIBUTING.md,\,,,,,
+Grover-c13/PokeGOAPI-Java,https://github.com/Grover-c13/PokeGOAPI-Java#contributing,\,,,,,
+opennetworkinglab/onos,"https://wiki.onosproject.org/display/ONOS/Contributor+Guide
+https://wiki.onosproject.org/display/ONOS/Code+Style+Guidelines",Details at https://wiki.onosproject.org/display/ONOS/Code+Style+Guidelines#CodeStyleGuidelines-Comments,what to comment,,"where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->test_cases other->readability->language what->required->functionality what->required->usage  other->readability->space_indent where->general_rules->implicit->complex_code 
+
+ 
+
+ 
+
+",where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage other->readability->space_indent other->readability->language,"where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->test_cases other->readability->language what->required->functionality what->required->usage  other->readability->space_indent where->general_rules->implicit->complex_code 
+
+ 
+
+ 
+
+"
+VoltzEngine-Project/Engine,\,\,,,,,
+jamesagnew/hapi-fhir,https://github.com/hapifhir/hapi-fhir/wiki/Contributing,\,,,,,
+epimorphics/elda,\,\,,,,,
+intermine/intermine,http://intermine.org/contributing/,\,,,,,
+boonproject/boon,\,\,,,,,
+xerial/sqlite-jdbc,\,\,,,,,
+gp-b2g/frameworks_base,\,\,,,,,
+exoplatform/social,\,\,,,,,
+thomsonreuters/Elektron-SDK,\,\,,,,,
+javaserverfaces/mojarra,\,\,,,,,
+apache/beam,https://beam.apache.org/contribute/,\,,,,,
+gridgain/gridgain,\,\,,,,,
+StripesFramework/stripes,\,\,,,,,
+havlenapetr/android_frameworks_base,\,\,,,,,
+mmarquee/ui-automation,https://github.com/mmarquee/ui-automation/blob/master/CONTRIBUTING.md,\,,,,,
+graalvm/graal,https://github.com/oracle/graal/blob/master/CONTRIBUTING.md,\,,,,,
+groovy/groovy-eclipse,https://github.com/groovy/groovy-eclipse/blob/master/docs/Getting-Started-with-Groovy-Eclipse-Source-Code.md#contribute,"There are currently no coding standards, but ensure your changes match the style of the code that is already present in the project.",,,,,
+skadistats/clarity,\,\,,,,,
+Sage-Bionetworks/Synapse-Repository-Services,\,\,,,,,
+AOSPA/android_frameworks_base,\,\,,,,,
+QuickBlox/q-municate-android,\,\,,,,,
+odpi/egeria,https://github.com/odpi/egeria/blob/master/developer-resources/Developer-Guidelines.md,"Although all code for Egeria should be clear and easy to read, the code itself can only describe what it is doing. It can rarely describe why it is doing it. Also, the Egeria codebase is quite large and hard to digest in one go. Having summaries of its behaviour and philosophy helps people to understand its capability faster.
+Javadoc
+Javadoc is used to build a code reference for our public site. It is generated as part of the build. There are three places where Javadoc should be provided by the developer of Java code:
+
+Every Java source file should begin with a header javadoc tag just before the start of the class/interface/enum, which explains the purpose and responsibilities of the code.
+All public methods should have a clear Javadoc header describing the purpose, parameters and results (including exceptions). This includes test cases.
+Each Java package should include a package-info.java file describing the purpose of the package and its content.
+Java code files may have additional comments, particularly where the processing is complex. The most useful comments are those that describe the purpose, or intent of the code, rather than a description of what each line of code is doing.
+
+The output from a build should be checked to ensure there are no javadoc warnings - for example about undocumented parameters or exceptions.","where to comment
+ what to comment",,"what->required->functionality what->required->purpose  where->general_rules->explicit->all_classes  where->general_rules->explicit->all_methods where->general_rules->explicit->test_cases  what->required->usage
+
+",where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->test_cases what->required->functionality what->required->usage what->required->purpose,"what->required->functionality what->required->purpose  where->general_rules->explicit->all_classes  where->general_rules->explicit->all_methods where->general_rules->explicit->test_cases  what->required->usage
+
+"
+MoKee/android_frameworks_base,\,\,,,,,
+rasto/lcmc,\,\,,,,,
+codelibs/fess,\,\,,,,,
+apache/drill,http://drill.apache.org/docs/apache-drill-contribution-guidelines/,All public classes and methods should have informative Javadoc comments. Do not use @author tags.,"where to comment
+ what to comment",,"where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes  what->forbidden->author_tag
+
+",where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->forbidden->author_tag,"where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes  what->forbidden->author_tag
+
+"
+Blood-Asp/GT5-Unofficial,https://github.com/Blood-Asp/GT5-Unofficial/blob/unstable/CONTRIBUTING.md,"Follow the codestyle used through most of the project
+Try to document your code as you go for future readability.
+
+Practies we'd like to avoid include:
+Leaving large code comment segments commented out without any comments.",what to comment,,what->forbidden->commented_code,what->forbidden->commented_code,what->forbidden->commented_code
+eclipse/eclipse.jdt.core,\,,,,,,
+naver/ngrinder,https://github.com/naver/ngrinder/wiki/Coding-Convention,"Code written for an nGrinder 3.X project should follow the ""Code Conventions for the Java Programming Language""
+http://www.oracle.com/technetwork/java/codeconv-138413.html
+
+Exceptions
+3.1.1 Beginning Comments
+All source files should begin with a c-style comment that lists the class name, version information, date, and copyright notice:
+
+Comment
+Provide a class comment like the following. You should provide a simple description, author, and the version from which this class is provided.",,Oracle Guide,what->required->functionality what->required->author_info what->required->creation_date,what->required->functionality what->required->author_info what->required->creation_date,what->required->functionality what->required->author_info what->required->creation_date
+jOOQ/jOOQ,https://github.com/jOOQ/jOOQ/blob/main/CONTRIBUTING.md,\,,,,,
+bedatadriven/activityinfo,\,\,,,,,
+leapcode/bitmask_android,\,\,,,,,
+gmantele/taplib,\,\,,,,,
+deegree/deegree3,"https://github.com/deegree/deegree3/blob/master/CONTRIB.md
+https://github.com/deegree/deegree3/wiki/Developer-Guidelines","Java file headers
+This is the header to use for new java files. Download https://raw.github.com/wiki/deegree/deegree3/codetemplates.xml for easy Eclipse import (includes class headers).
+
+Javadoc class headers
+This is the template to be used for class javadocs.",what to comment,,what->required->functionality what->required->author_info what->required->creation_date,what->required->functionality what->required->author_info what->required->creation_date,what->required->functionality what->required->author_info what->required->creation_date
+BowlerHatLLC/feathers-sdk,https://feathersui.com/learn/as3-starling/coding-conventions/,\,,,,,
+MyRobotLab/myrobotlab,\,\,,,,,
+wso2/carbon-kernel,https://wso2.github.io/,\,,,,,
+leonamp/SPFBL,\,\,,,,,
+googleapis/google-cloud-java,https://github.com/googleapis/google-cloud-java/blob/master/CONTRIBUTING.md,Maintain the coding style in the project and in particular the modified files. Follow the Google Java style.,,Google Guide,,,
+DSpace/DSpace,"https://wiki.lyrasis.org/display/DSPACE/Code+Contribution+Guidelines
+https://wiki.lyrasis.org/display/DSPACE/Code+Style+Guide","Your code must adhere to our Java Code Style Guide. Most major IDEs can easily import our Checkstyle configurations to ensure alignment with this code style.
+Your code should be well commented with Javadoc (required for all classes, public methods and larger private/protected methods).
+A ""catch"" block must minimally include a comment as to why the catch is empty
+Write Javadocs for public methods and classes. Keep it short and to the point.
+Javadoc @author tags are optional, but should refer to an individual's name or handle (e.g. GitHub username) when included
+
+","where to comment
+ what to comment",Custom Guide,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes
+weld/api,http://weld.cdi-spec.org/community/,\,,,,,
+BaseXdb/basex,\,\,,,,,
+manoelcampos/cloudsim-plus,https://github.com/manoelcampos/cloudsim-plus/blob/master/CONTRIBUTING.md,"If you have to write a comment to explain a portion of the code, probably you should use the Extract Method refactor in your IDE to create a new method for that portion of code. Commonly, you may be able to reduce and adjust your comment, using it as the method name.
+You have to provide clear and relevant javadoc documentation for your classes, methods, parameters and attributes. Documentation such as ""The id"" or ""The name attribute"" doesn't help in anyway and just pollutes the code.",,,,,
+ChameleonOS/android_frameworks_base,\,\,,,,,
+BuildCraft/BuildCraft,https://github.com/BuildCraft/BuildCraft#contributing,\,,,,,
+aws/aws-sdk-java,https://github.com/aws/aws-sdk-java/blob/master/CONTRIBUTING.md,\,,,,,
+spring-projects/greenhouse,https://github.com/spring-projects/greenhouse/wiki/Contributor-Guidelines,\,,,,,
+apache/commons-beanutils,https://github.com/apache/commons-beanutils/blob/master/CONTRIBUTING.md,Respect the original code style:,,,,,
+Geomatys/geotoolkit,\,\,,,,,
+MovingBlocks/Terasology,https://github.com/MovingBlocks/Terasology/wiki,"Very long style guide here:https://github.com/MovingBlocks/Terasology/wiki/Code-Conventions#javadoc
+
+Use // TODO comments to note where something needs to be done",,,"what->required->functionality other->readability->language what->required->@code what->required->@link what->required->usage what->forbidden->author_tag where->general_rules->explicit->all_methods
+ ","what->required->functionality other->readability->language what->required->@code what->required->@link what->required->usage what->forbidden->author_tag where->general_rules->explicit->all_methods
+ ","what->required->functionality other->readability->language what->required->@code what->required->@link what->required->usage what->forbidden->author_tag where->general_rules->explicit->all_methods
+ "
+robolectric/robolectric,http://robolectric.org/contributing/,"Documentation
+Robolectric uses Markdown Doclet, so write javadoc using markdown, with javadoc tag extensions.
+
+For developers with the Robolectric Chrome Extension installed, javadoc on Robolectric shadow classes and methods are inserted into developer.android.com sections for the classes and methods they shadow, and identified as Robolectric-related testing notes. Javadoc on visible, non-@Implementation methods on shadow classes are displayed in a new ‘Testing APIs�?section for the shadowed class.
+
+There are special rules for javadoc on shadow classes to support the Robolectric Chrome Extension:
+
+All @Implementation methods whose behavior varies from the standard Android behavior MUST have Javadoc describing the difference. Use @see or {@link} to indicate if the method’s behavior can be changed or inspected by calling testing API methods. If the method’s behavior is identical to the normal framework behavior, no javadoc is necessary.
+All visible non-@Implementation methods SHOULD have descriptive Javadoc.
+Don’t write javadoc comments like “Shadow for (whatever).�? The javadoc will appear in a section clearly related to testing, so make it make sense in context.",what to comment,,what->required->relationship what->required->@link,what->required->relationship what->required->@link,what->required->relationship what->required->@link
+eclipse/rap,http://wiki.eclipse.org/RAP/CodingStandards,"@since Tags
+All public API must be marked with a @since tag at the class/interface level. Only methods, fields etc. that are added in a later release cycle must carry their own @since tag. The version number denotes the release version in which the elemen",what to comment,,what->required->creation_date,what->required->creation_date,what->required->creation_date
+Camelcade/Perl5-IDEA,https://github.com/Camelcade/Perl5-IDEA/wiki/Contribution-policy,\,,,,,
+bytedeco/javacpp-presets,https://github.com/bytedeco/javacpp-presets#how-can-i-help,\,,,,,
+aws-amplify/aws-sdk-android,\,\,,,,,
+apache/ofbiz-framework,"https://cwiki.apache.org/confluence/display/OFBIZ/Coding+Conventions
+","The OFBiz project follows the Sun coding standards for Java source code.
+Of course comments at the top of sections are welcome...
+
+",,,,,
+hiddenswitch/Spellsource-Server,https://github.com/hiddenswitch/Spellsource/blob/798ccb5f9a1c034a8517bfc097293ba1fdc57112/spellsource-web/src/pages-markdown/contribute.md,\,,,,,
+vavr-io/vavr,"https://github.com/vavr-io/vavr/blob/master/CONTRIBUTING.md
+https://github.com/vavr-io/vavr/blob/master/CONTRIBUTING.md","Javadoc
+Public API needs javadoc, e.g. public classes and public methods.
+Non-trivial private methods need javadoc, too.
+Design decisions are worth a comment.
+A package, which is part of the public API, contains a package-info.java.
+Unit tests contain no javadoc at all (because they introduce no new API and contain no business logic).
+Running ./gradlew javadoc results in no javadoc errors.
+All classes start with the following copyright notice in order to apply the Apache-2.0 license:
+
+We do not include @author javadoc tags because they are redundant. Look up the git file history instead, e.g. on GitHub.",what to comment,,where->general_rules->explicit->all_methods what->required->purpose what->forbidden->author_tag where->general_rules->explicit->none_in_test_cases,where->general_rules->explicit->all_methods what->required->purpose what->forbidden->author_tag,where->general_rules->explicit->all_methods what->required->purpose what->forbidden->author_tag where->general_rules->explicit->none_in_test_cases
+apache/maven-doxia,https://maven.apache.org/developers/conventions/code.html,"License Header: Always add the current ASF license header in all files checked into the source code repository.
+Documentation: Document public interfaces well, i.e. all non-trivial public and protected functions should include Javadoc that indicates what they do.
+JavaDoc Convention
+TO BE DISCUSSED",,,where->general_rules->implicit->nontrivial_public_method,where->general_rules->implicit->nontrivial_public_method,where->general_rules->implicit->nontrivial_public_method
+mapfish/mapfish-print,/,/,,,,,
+apache/accumulo,"https://github.com/apache/accumulo/blob/8e309e987c8e565fa48ed82ac98e6990464ddbc3/.github/CONTRIBUTING.md
+https://accumulo.apache.org/how-to-contribute/","Every file requires the ASF license header as described in ASF Source Header.
+Do not use Author Tags. The code is developed and owned by the community.
+",what to comment,,what->forbidden->author_tag,what->forbidden->author_tag,what->forbidden->author_tag
+arquillian/arquillian-extension-persistence,/,/,,,,,
+RuedigerMoeller/kontraktor,\,\,,,,,
+cnaude/PurpleIRC,\,\,,,,,
+google/closure-compiler,https://github.com/google/closure-compiler/wiki/Contributors#coding-conventions,"For the most part, we try to follow Google Java Style Guide.",,Google Guide,,,
+stratosphere/stratosphere,https://github.com/stratosphere/stratosphere/wiki/CodingGuidelines,"Make sure you have Apache License headers in your files.
+
+Do not add ""non-javadoc"" comments.
+
+Add comments to your code. What is it doing? Add JavaDocs or inherit them by not adding any comments to the methods. Do not automatically generate comments and avoid unnecessary comments like
+
+i++; // increment by one",what to comment,,what->required->functionality,what->required->functionality,what->required->functionality
+cgeo/cgeo,https://github.com/cgeo/cgeo/wiki/Coding-Conventions,Javadoc should be used on public methods. Undescribed parameters and return values should be omitted.,"what to comment
+where to comment",,where->general_rules->explicit->all_methods what->required->usage,where->general_rules->explicit->all_methods what->required->usage,where->general_rules->explicit->all_methods what->required->usage
+apache/commons-logging,https://github.com/apache/commons-logging/blob/master/CONTRIBUTING.md,Respect the code style.,,,,,
+liferay/liferay-portal,https://github.com/liferay/liferay-portal/blob/master/CONTRIBUTING.markdown,\,,,,,
+kohsuke/github-api,https://github.com/hub4j/github-api/blob/master/CONTRIBUTING.md,\,,,,,
+loklak/loklak_server,https://github.com/loklak/loklak_server#how-can-i-contribute,\,,,,,
+kitodo/kitodo-production,https://kitodo-production.readthedocs.io/en/latest/,\,,,,,
+adempiere/adempiere,\,\,,,,,
+devicehive/devicehive-java-server,\,\,,,,,
+koraktor/steam-condenser-java,https://github.com/koraktor/steam-condenser-java/blob/master/CONTRIBUTING.md,\,,,,,
+SkriptLang/Skript,"https://github.com/SkriptLang/Skript/blob/master/.github/contributing.md
+https://github.com/SkriptLang/Skript/blob/master/code-conventions.md","Comments
+Prefer to comment why you're doing things instead of how you're doing them
+In case the code is particularly complex, though, do both!
+Write all comments in readable English
+Remember the basic grammar rules
+Fun is allowed, if that does not hurt the readability
+No matter if a comment contains a sentence or not, capitalize the first letter
+For single line comments
+Always start with a space; it improves readability
+You may put them at ends of lines, if the line doesn't get too wide due to that
+",what to comment,,where->general_rules->implicit->complex_code other->readability->space_indent other->readability->english what->required->purpose,where->general_rules->implicit->complex_code other->readability->space_indent other->readability->english,where->general_rules->implicit->complex_code other->readability->space_indent other->readability->english what->required->purpose
+PerfCake/PerfCake,http://perfcake.org/community/,\,,,,,
+lionsoul2014/jcseg,\,\,,,,,
+amplitude/Amplitude-Android,\,\,,,,,
+openengsb/openengsb,\,\,,,,,
+Microsoft/mssql-jdbc,https://github.com/microsoft/mssql-jdbc/blob/dev/Coding_Guidelines.md,"2. Comments
+We should give appropriate java comments in code. Please find ideal example of java comments. We do not expect to have full javadocs for common methods like getters / setters.
+All Java files should contain the appropriate copyright notice at the beginning of the file.",,,,,
+rcsb/symmetry,\,\,,,,,
+seasarorg/seasar2,\,\,,,,,
+geopaparazzi/geopaparazzi,https://github.com/geopaparazzi/geopaparazzi/wiki/Project-Code-Conventions,"These are the code conventions we will from now on try to adhere to:
+
+http://source.android.com/source/code-style.html",,,,,
+Unidata/thredds,\,\,,,,,
+smartrics/RestFixture,\,\,,,,,
+basho/riak-java-client,"https://github.com/basho/riak-java-client#contributing
+https://github.com/basho/riak-java-client/blob/develop/CONTRIBUTING.md",\,,,,,
+orcc/orcc,\,\,,,,,
+ReactiveX/RxJava,https://github.com/ReactiveX/RxJava/blob/3.x/CONTRIBUTING.md,"When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.",,,,,
+CoprHD/coprhd-controller,\,\,,,,,
+eclipse/jetty.project,"https://www.eclipse.org/jetty/get_involved.php
+https://www.eclipse.org/jetty/develop.php#cg-coding-standards",Always have some javadoc,,,,,
+JRebirth/JRebirth,http://www.jrebirth.org/Contribute.html,\,,,,,
+saros-project/saros,https://www.saros-project.org/contribute/,"Acceptable code comments are summary comments (4.), intent comments (5.), and information that cannot be expressed in code (6.). Markers (3.) are acceptable during development but should be removed before release. Try to avoid comments that repeat (1.) or explain the code (2.). More details at https://www.saros-project.org/contribute/best-practices.html#kinds-of-comments",what to comment,,what->required->functionality what->required->purpose,what->required->functionality what->required->purpose,what->required->functionality what->required->purpose
+apache/cocoon,http://cocoon.apache.org/1273_1_1.html,\,,,,,
+DirtyUnicorns/android_frameworks_base,\,\,,,,,
+apache/hbase,\,\,,,,,
+wisdom-framework/wisdom,\,\,,,,,
+cdapio/cdap,https://github.com/cdapio/cdap/blob/develop/CONTRIBUTING.rst,\,,,,,
+Microsoft/java-debug,\,\,,,,,
+eclipse/ditto,https://github.com/eclipse/ditto/blob/master/CONTRIBUTING.md,We use the Google Java Style Guide where a formatter for Eclipse IDE is available.,,,,,
+Workiva/frugal,https://github.com/Workiva/frugal/blob/master/CONTRIBUTING.md,\,,,,,
+twitch4j/twitch4j,https://twitch4j.github.io/docs/contribution/,"Punctuate every class and method description (sentence or phrase) with a period.
+Starting with an action word, describe what each class and method does.
+Avoid just restating the class or method name (e.g., Avoid updateLocalization(�? �?Updates the localization OR @param key the key).
+Describe the most important details in the first sentence, because it is the only one shown in the class/method summary.
+Include all relevant tags (@param, @return, etc) for each method; without them, the method Javadoc is incomplete.
+Start a method description with Returns, if the method returns a value.
+Don’t explicitly refer to collections in descriptions (e.g., list of articles). Use, instead, the plural (e.g., the articles) or “all the�?(e.g., all the articles).
+When referring to another class, create a link by using {@link entity} (e.g., {@link TwitchClient})
+Begin boolean parameter descriptions with whether.
+Describe exceptions (e.g., @throws) in past tense.",,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->@link other->readability->language,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->@link other->readability->language,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->@link other->readability->language
+asLody/VirtualApp,\,\,,,,,
+stephanenicolas/toothpick,https://github.com/stephanenicolas/toothpick/blob/master/CONTRIBUTING.md,\,,,,,
+alkacon/alkacon-oamp,\,\,,,,,
+jenkinsci/ivy-plugin,"https://www.jenkins.io/participate/code/
+https://www.jenkins.io/participate/document/",\,,,,,
+getsentry/sentry-java,https://github.com/getsentry/sentry-java/blob/main/CONTRIBUTING.md,\,,,,,
+spotify/helios,https://github.com/spotify/helios/blob/master/CONTRIBUTING.md,\,,,,,
+vaadin/cdi,https://vaadin.com/docs/latest/guide/contributing/overview,\,,,,,
+ChestShop-authors/ChestShop-3,\,\,,,,,
+BigScary/GriefPrevention,\,\,,,,,
+marcelo-mason/PreciousStones,\,\,,,,,
+VUE/VUE,\,\,,,,,
+GreenDelta/olca-app,\,\,,,,,
+fesch/CanZE,"https://canze.fisch.lu/how-to-help/
+https://github.com/fesch/CanZE/wiki/4.-Collaborate-(continuous-development)",\,,,,,
+jOOQ/jOOL,https://github.com/jOOQ/jOOL/blob/main/CONTRIBUTING.md,\,,,,,
+AdamBien/lightfish,\,\,,,,,
+M66B/XPrivacy,https://github.com/M66B/XPrivacy#contributing,\,,,,,
+hierynomus/sshj,\,\,,,,,
+owncloud/android,https://github.com/owncloud/android/blob/master/CONTRIBUTING.md,\,,,,,
+velo/flexmojos,\,\,,,,,
+oshi/oshi,https://github.com/oshi/oshi/blob/master/CONTRIBUTING.md,\,,,,,
+plivo/plivo-java,\,\,,,,,
+moezbhatti/qksms,\,\,,,,,
+iBotPeaches/Apktool,https://github.com/iBotPeaches/Apktool/blob/12ae67158c4357b1406dfa0415b4773a7cc03ef4/.github/CONTRIBUTING.md,\,,,,,
+graphql-java/graphql-java,https://github.com/graphql-java/graphql-java/blob/master/CONTRIBUTING.md,\,,,,,
+spring-projects/spring-kafka,"https://github.com/spring-projects/spring-kafka#code-conventions-and-housekeeping
+https://github.com/spring-projects/spring-kafka/blob/main/CONTRIBUTING.adoc","Make sure all new .java files to have a simple Javadoc class comment with at least an @author tag identifying you, and preferably at least a paragraph on what the class is for.
+Add yourself as an @author to the .java files that you modify substantially (more than cosmetic changes).
+Add some Javadocs and, if you change the namespace, some XSD doc elements.
+Use @since tags for newly-added public API types and methods.
+
+
+
+
+
+
+",,,where->general_rules->explicit->all_classes what->required->author_info what->required->creation_date what->required->purpose,where->general_rules->explicit->all_classes what->required->author_info what->required->creation_date what->required->purpose,where->general_rules->explicit->all_classes what->required->author_info what->required->creation_date what->required->purpose
+Intel-bigdata/SSM,\,\,,,,,
+facebook/litho,"https://github.com/facebook/litho/blob/master/CONTRIBUTING.md
+https://fblitho.com/docs/best-practices/coding-style",We follow the Google Java Style.,,,,,
+cfg4j/cfg4j,\,\,,,,,
+sleekbyte/tailor,https://github.com/sleekbyte/tailor/blob/master/.github/CONTRIBUTING.md,\,,,,,
+TigerVNC/tigervnc,\,\,,,,,
+sanity/quickml,\,\,,,,,
+crawljax/crawljax,https://github.com/crawljax/crawljax/wiki/Contributing-to-Crawljax-code,\,,,,,
+aol/micro-server,\,\,,,,,
+ether/pad,https://etherpad.org/#contribute,\,,,,,
+linqs/psl,\,\,,,,,
+brave/link-bubble,https://github.com/brave/link-bubble/blob/master/CONTRIBUTING.md,\,,,,,
+react-native-community/react-native-svg,https://github.com/react-native-svg/react-native-svg/blob/develop/CONTRIBUTING.md,\,,,,,
+jtransc/jtransc,https://jtransc.soywiz.com/contributing,\,,,,,
+rsocket/rsocket-java,https://github.com/rsocket/rsocket-java/blob/master/CONTRIBUTING.md,\,,,,,
+vmware/xenon,"https://github.com/vmware-archive/xenon/wiki/contributing
+https://github.com/vmware-archive/xenon/wiki/Code-Style","Comments are always placed at independent line.
+Do not append the comment at the end of the line.",,,,,
+line/line-bot-sdk-java,https://github.com/line/line-bot-sdk-java/blob/master/CONTRIBUTING.md,\,,,,,
+keycloak/keycloak,https://github.com/keycloak/keycloak/blob/master/CONTRIBUTING.md,\,,,,,
+spring-cloud/spring-cloud-netflix,https://github.com/spring-cloud/spring-cloud-netflix#contributing,"Make sure all new .java files to have a simple Javadoc class comment with at least an @author tag identifying you, and preferably at least a paragraph on what the class is for.
+
+Add the ASF license header comment to all new .java files (copy from existing files in the project)
+
+Add yourself as an @author to the .java files that you modify substantially (more than cosmetic changes).
+
+Add some Javadocs and, if you change the namespace, some XSD doc elements.",,,where->general_rules->explicit->all_classes what->required->author_info what->required->purpose,where->general_rules->explicit->all_classes what->required->author_info what->required->purpose,where->general_rules->explicit->all_classes what->required->author_info what->required->purpose
+rabbitmq/rabbitmq-java-client,https://github.com/rabbitmq/rabbitmq-java-client/blob/main/CONTRIBUTING.md,\,,,,,
+tabulapdf/tabula-java,\,\,,,,,
+jitsi/jitsi-videobridge,https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-contributing,"Comments documenting the source code are required.
+
+Comments from which documentation is automatically generated are not subject to case-by-case decisions. Such comments are used, for example, on types and their members. Examples of tools which automatically generate documentation from such comments include JSDoc, Javadoc, Doxygen.
+
+Comments which are not automatically processed are strongly encouraged. They are subject to case-by-case decisions. Such comments are often observed in function bodies.
+
+Comments should be formatted as proper English sentences. Such formatting pays attention to, for example, capitalization and punctuation.",,,where->general_rules->implicit->complex_code other->readability->english,where->general_rules->implicit->complex_code other->readability->english,where->general_rules->implicit->complex_code other->readability->english
+atomix/copycat,\,\,,,,,
+permissions-dispatcher/PermissionsDispatcher,\,\,,,,,
+dmfs/opentasks,\,\,,,,,
+TeamAmaze/AmazeFileManager,https://github.com/TeamAmaze/AmazeFileManager/blob/release/3.7/CONTRIBUTING.md,"Please follow Android/JAVA code style for writing any code, but do not use the Hungarian notation proposed - discussion here.",,,,,
+viskell/viskell,\,\,,,,,
+julianhyde/sqlline,\,\,,,,,
+eidottermihi/rpicheck,https://github.com/eidottermihi/rpicheck#contributing,\,,,,,
+apache/sentry,https://cwiki.apache.org/confluence/display/SENTRY/How+to+Contribute,"Insert java docs and code comments where appropriate.
+Please do not comment out code that is now obsolete: just remove it.
+Please do comment code whose function or rationale is not obvious;
+",,,where->general_rules->implicit->complex_code what->required->functionality what->required->purpose what->forbidden->commented_code,where->general_rules->implicit->complex_code what->required->functionality what->required->purpose what->forbidden->commented_code,where->general_rules->implicit->complex_code what->required->functionality what->required->purpose what->forbidden->commented_code
+fullstackreact/react-native-firestack,https://github.com/fullstackreact/react-native-firestack/blob/master/Contributing.md,\,,,,,
+yandex/clickhouse-jdbc,\,\,,,,,
+ehcache/ehcache3,https://github.com/ehcache/ehcache3/blob/master/CONTRIBUTING.adoc,\,,,,,
+real-logic/agrona,https://github.com/real-logic/agrona/blob/master/CONTRIBUTING.md,"When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.
+
+",,,,,
+ryantenney/metrics-spring,\,\,,,,,
+torquebox/jruby-maven-plugins,https://github.com/torquebox/jruby-maven-plugins#contributing,\,,,,,
+JetBrains/jetpad-projectional-open-source,\,\,,,,,
+systers/powerup-android,"https://github.com/anitab-org/powerup-android/blob/develop/CONTRIBUTING.md
+https://github.com/anitab-org/powerup-android/blob/develop/CONTRIBUTING.md",\,,,,,
+Ellpeck/ActuallyAdditions,\,\,,,,,
+stefan-niedermann/nextcloud-notes,https://github.com/stefan-niedermann/nextcloud-notes/blob/master/CONTRIBUTING.md,\,,,,,
+networknt/light-4j,https://doc.networknt.com/contribute/,\,,,,,
+raulhaag/MiMangaNu,\,\,,,,,
+vsch/idea-multimarkdown,\,\,,,,,
+TechReborn/TechReborn,https://github.com/TechReborn/TechReborn/blob/482fe4f01f70e5b1563e52b1fb133dfd58c605f4/.github/CONTRIBUTING.md,"The code includes javadoc where appropriate.
+The code is tidy (indentation, line length, no commented-out code, no spelling mistakes, etc).",,,where->general_rules->implicit->nontrivial_public_method what->forbidden->commented_code,where->general_rules->implicit->nontrivial_public_method what->forbidden->commented_code,where->general_rules->implicit->nontrivial_public_method what->forbidden->commented_code
+umple/umple,"https://github.com/umple/umple/blob/master/CONTRIBUTING.md
+https://github.com/umple/umple/wiki/ContributionProcessToUmple","Please adhere to the coding conventions in the project (indentation, accurate comments, etc.) and don't forget to add your own tests and documentation. 
+Document your code. in particular, use proper comment blocks at the beginning of each file, informative comments where necessary in the body, and Readme.txt files in directories.",,,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code
+ruleant/getback_gps,https://github.com/ruleant/getback_gps/wiki/Development,\,,,,,
+jitsi/ice4j,\,\,,,,,
+StevenRS11/DimDoors,\,\,,,,,
+spotify/apollo,https://github.com/spotify/apollo/blob/1.x/CONTRIBUTING.md,"Make sure to document your feature in the relevant places (Javadoc comments, README files, etc).
+",,,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code
+xenit-eu/dynamic-extensions-for-alfresco,https://github.com/xenit-eu/dynamic-extensions-for-alfresco/blob/master/documentation/Contributing.md,\,,,,,
+camelot-framework/camelot,\,\,,,,,
+serenity-bdd/serenity-jbehave,https://github.com/serenity-bdd/serenity-jbehave/blob/master/CONTRIBUTING.md,\,,,,,
+RIPE-NCC/whois,https://github.com/RIPE-NCC/whois/wiki/Coding-standard,"Don't include unnecessary comments, code should be self-documenting. Remember: comments have to be maintained too, but they are not covered by tests.
+",,,where->general_rules->implicit->complex_code other->maintenance->update,where->general_rules->implicit->complex_code other->maintenance->update,where->general_rules->implicit->complex_code other->maintenance->update
+i2p/i2p.i2p-bote,\,\,,,,,
+grzegorznittner/chanu,\,\,,,,,
+alfio-event/alf.io,https://alf.io/docs/contribution-guidelines/,\,,,,,
+mucommander/mucommander,https://github.com/mucommander/mucommander/wiki#contributors,\,,,,,
+jjoe64/GraphView,\,\,,,,,
+chennaione/sugar,\,\,,,,,
+4pr0n/ripme,https://github.com/4pr0n/ripme/blob/351b58ce22974c9b7bc290e0afe0d9c3f4133a0c/.github/CONTRIBUTING.md,\,,,,,
+KronicDeth/intellij-elixir,https://github.com/KronicDeth/intellij-elixir/blob/main/CONTRIBUTING.md#contributing,\,,,,,
+schildbach/public-transport-enabler,\,\,,,,,
+brianwernick/ExoMedia,https://github.com/brianwernick/ExoMedia/blob/master/CONTRIBUTING.md,\,,,,,
+egovernments/egov-smartcity-suite,https://github.com/egovernments/egov-smartcity-suite/blob/master/CONTRIBUTING.md,"Add GPL 3 license header to all new classes, update GPL license header in modified files as necessary
+Use @since tags for newly-added public API types and methods
+",,,what->required->creation_date,what->required->creation_date,what->required->creation_date
+Yakindu/statecharts,https://github.com/Yakindu/statecharts/blob/master/CONTRIBUTING.md,\,,,,,
+orbit/orbit,https://www.orbit.cloud/orbit/contributing/standards-and-policies/,"Provide KDoc comments for all public members, with the exception of overrides that do not require any new documentation (to support generating documentation for the library)
+",,,where->general_rules->explicit->all_methods where->general_rules->explicit->none_in_overriding_methods,where->general_rules->explicit->all_methods where->general_rules->explicit->none_in_overriding_methods,where->general_rules->explicit->all_methods where->general_rules->explicit->none_in_overriding_methods
+frakbot/FWeather,\,\,,,,,
+okjsp/okjsp-site,\,\,,,,,
+ikarus23/MifareClassicTool,\,\,,,,,
+emilsjolander/StickyListHeaders,\,\,,,,,
+cfeclipse/cfeclipse,\,\,,,,,
+ESAPI/esapi-java-legacy,https://github.com/ESAPI/esapi-java-legacy/blob/develop/CONTRIBUTING-TO-ESAPI.txt,\,,,,,
+tagbangers/wallride,http://wallride.org/docs/guide.html#contribute,\,,,,,
+INRIA/spoon,"https://github.com/INRIA/spoon/blob/master/CONTRIBUTING.md
+https://spoon.gforge.inria.fr/comments.html","Spoon integrators only merge well tested and well documented pull requests, after thorough code review",,,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code
+kreed/vanilla,https://github.com/kreed/vanilla,\,,,,,
+MCUpdater/MCUpdater,https://github.com/MCUpdater/MCU-API,\,,,,,
+Grarak/KernelAdiutor,https://github.com/Grarak/KernelAdiutor,\,,,,,
+twizmwazin/CardinalPGM,https://github.com/twizmwazin/CardinalPGM,\,,,,,
+classgraph/classgraph,https://github.com/classgraph/classgraph,\,,,,,
+alibaba/Sentinel,https://github.com/alibaba/Sentinel/blob/master/CONTRIBUTING.md,"Readability: Important code should be well-documented. Comply with our code style.
+",,,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code,where->general_rules->implicit->complex_code
+headius/jruby-pg,https://github.com/headius/jruby-pg,\,,,,,
+CorfuDB/CorfuDB,https://github.com/CorfuDB/CorfuDB,\,,,,,
+spring-projects/spring-data-solr,https://github.com/spring-projects/spring-data-build/blob/main/CONTRIBUTING.adoc,\,,,,,
+nodebox/nodebox,https://github.com/nodebox/nodebox,\,,,,,
+fossasia/open-event-droidgen,https://github.com/fossasia/open-event-droidgen/blob/development/docs/codestyle.md,"FIXME must not be committed in the repository use TODO instead. FIXME can be used in your own local repository only.
+",,,what->required->TODO,what->required->TODO,what->required->TODO
+codenameone/CodenameOne,https://github.com/codenameone/CodenameOne/blob/master/CONTRIBUTING.md,\,,,,,
+xbony2/Nuclear-Control,https://github.com/xbony2/Nuclear-Control,\,,,,,
+alibaba/arthas,https://github.com/alibaba/arthas/blob/master/CONTRIBUTING.md,\,,,,,
+mifos/head,https://github.com/mifos/head,\,,,,,
+apache/hive,https://cwiki.apache.org/confluence/display/Hive/HowToContribute,"All public classes and methods should have informative Javadoc comments.
+Do not use @author tags.
+Please do not:
+comment out code that is now obsolete: just remove it;
+insert comments around each change, marking the change: folks can use git to figure out what's changed and by whom;
+Please do:
+comment code whose function or rationale is not obvious;
+update documentation (such as Javadocs including package.html files and this wiki).
+
+
+
+",,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->maintenance->update,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->functionality what->required->purpose what->forbidden->author_tag what->forbidden->commented_code other->maintenance->update
+structurizr/java,https://github.com/structurizr/java,\,,,,,
+google/gson,https://github.com/google/.github/blob/b568cae231cb34535b64014a495c89c020328cff/CONTRIBUTING.md,\,,,,,
+apache/stanbol,http://stanbol.apache.org/development/coding.html,\,,,,,
+mojohaus/versions-maven-plugin,https://github.com/mojohaus/versions-maven-plugin,\,,,,,
+javaparser/javaparser,"https://github.com/javaparser/javaparser/blob/master/CONTRIBUTING.md
+https://github.com/javaparser/javaparser/wiki/Coding-Guidelines
+https://javaparser.org/code-style-architecture/","When deprecating, there must always be an explanation in the Javadoc telling what the new way of doing things is.",,,what->required->relationship,what->required->relationship,what->required->relationship
+mtotschnig/MyExpenses,https://github.com/mtotschnig/MyExpenses,\,,,,,
+palantir/conjure-java-runtime,\,\,,,,,
+OpenCubicChunks/CubicChunks,https://github.com/OpenCubicChunks/CubicChunks/tree/MC_1.12/code-formatters,\,,,,,
+mdeverdelhan/ta4j-origins,https://github.com/mdeverdelhan/ta4j-origins/blob/master/.github/CONTRIBUTING.md,\,,,,,
+apache/aurora,"https://github.com/apache/aurora/blob/master/CONTRIBUTING.md
+https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md","The more visible a piece of code is (and by extension - the farther away consumers might be), the more documentation is needed.
+Documentation for a class may range from a single sentence to paragraphs with code examples. Documentation should serve to disambiguate any conceptual blanks in the API, and make it easier to quickly and correctly use your API. A thorough class doc usually has a one sentence summary and, if necessary, a more detailed explanation.
+A method doc should tell what the method does. Depending on the argument types, it may also be important to document input format.
+Don't document overriding methods (usually)
+No author tags
+Code can change hands numerous times in its lifetime, and quite often the original author of a source file is irrelevant after several iterations. We find it's better to trust commit history and OWNERS files to determine ownership of a body of code.
+
+Leave TODOs early and often
+A TODO isn't a bad thing - it's signaling a future developer (possibly yourself) that a consideration was made, but omitted for various reasons. It can also serve as a useful signal when debugging.
+
+Leave no TODO unassigned
+TODOs should have owners, otherwise they are unlikely to ever be resolved.
+",,,where->general_rules->explicit->none_in_overriding_methods where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->usage what->required->TODO what->forbidden->author_tag,where->general_rules->explicit->none_in_overriding_methods where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->usage what->required->TODO what->forbidden->author_tag,where->general_rules->explicit->none_in_overriding_methods where->general_rules->implicit->nontrivial_public_method what->required->functionality what->required->usage what->required->TODO what->forbidden->author_tag
+cloudera/sqoop,\,\,,,,,
+codebutler/farebot,\,\,,,,,
+epimorphics/elda,https://github.com/epimorphics/elda/blob/master/CONTRIBUTING.md,\,,,,,
+igniterealtime/Spark,\,\,,,,,
+yigit/android-priority-jobqueue,\,\,,,,,
+cryptomator/cryptomator,https://github.com/cryptomator/cryptomator/blob/9b57c8fc715f3e6ae018bf3ff4d90b43e16613e0/.github/CONTRIBUTING.md,\,,,,,
+aaberg/sql2o,https://github.com/aaberg/sql2o/wiki/Coding-guidelines,\,,,,,
+hcoles/pitest,https://github.com/hcoles/pitest/blob/master/ISSUES.md,\,,,,,
+sismics/reader,\,\,,,,,
+danfickle/openhtmltopdf,\,\,,,,,
+caelum/mamute,\,\,,,,,
+kiegroup/drools-wb,\,\,,,,,
+magnusja/libaums,\,\,,,,,
+TNG/ArchUnit,https://github.com/TNG/ArchUnit/blob/main/CONTRIBUTING.md,\,,,,,
+gluonhq/scenebuilder,\,\,,,,,
+spring-projects/spring-security,https://github.com/spring-projects/spring-security/blob/main/CONTRIBUTING.adoc,"Use @since tags for newly-added public API types and methods
+",,,what->required->creation_date,what->required->creation_date,what->required->creation_date
+DeviceConnect/DeviceConnect-Android,\,\,,,,,
+structr/structr,\,\,,,,,
+williewillus/Botania,https://github.com/williewillus/Botania/blob/master/contributing.md,\,,,,,
+taweili/ardublock,\,\,,,,,
+te-con/ehour,\,\,,,,,
+apache/commons-lang,https://github.com/apache/commons-lang/blob/master/CONTRIBUTING.md,\,,,,,
+apache/commons-bcel,https://github.com/apache/commons-bcel/blob/master/CONTRIBUTING.md,\,,,,,
+apache/bookkeeper,https://cwiki.apache.org/confluence/display/BOOKKEEPER/Coding+Guide,No @author tags in any javadoc,,,what->forbidden->author_tag,what->forbidden->author_tag,what->forbidden->author_tag
+bunnyg/Hadoop-GIS,\,\,,,,,
+h2oai/h2o-3,https://github.com/h2oai/h2o-3/blob/master/CONTRIBUTING.md,\,,,,,
+JikesRVM/JikesRVM,"https://www.jikesrvm.org/Contributions/
+https://www.jikesrvm.org/UserGuide/ModifyingJikesRVM/index.html#x9-790007.2","All non-trivial ﬁles should contain descriptive comments in JavadocTM form so that documentation can be generated automatically. Of course, additional non-Javadoc source code comments should appear as appropriate.
+Classes, methods and ﬁelds should have a block comment describing them if it makes sense. There is no need to add comments merely for the sake of commenting. For example, it is not necessary to add a comment for a method if the comment does not provide more information than the signature and the method name already do.
+JavaDoc comments must not be copied from methods that are being overriden. If the comment from the method that you are overriding is suﬃcient, you do not need to provide JavaDoc for the newly added method - JavaDoc will automatically copy the JavaDoc from the overriden method. If you want to extend the comment from the overriden method with new information, use @inheritDoc to copy the comment from the superclass and add your text.
+JavaDoc for methods contains a short description of their arguments (using @param), the return value (using @return) and the exceptions they may throw (using @throws).
+Each class should include @see and @link references as appropriate.",,,where->general_rules->explicit->none_in_overriding_methods where->general_rules->implicit->complex_code where->general_rules->implicit->nontrivial_public_method what->required->usage what->required->@link,where->general_rules->explicit->none_in_overriding_methods where->general_rules->implicit->complex_code where->general_rules->implicit->nontrivial_public_method what->required->usage what->required->@link,where->general_rules->explicit->none_in_overriding_methods where->general_rules->implicit->complex_code where->general_rules->implicit->nontrivial_public_method what->required->usage what->required->@link
+SonarSource/sonarqube,"https://github.com/SonarSource/sonarqube/blob/ad4a7f986be16f5abd2ef118938ea944a5d2ad22/docs/contributing.md
+https://github.com/SonarSource/sonar-developer-toolset#code-style",\,,,,,
+RestComm/jss7,https://github.com/RestComm/jss7/wiki/Contribute,\,,,,,
+GluuFederation/oxAuth,https://github.com/GluuFederation/oxAuth/blob/version_4.3.0/.github/ISSUE_TEMPLATE/issue-report.md,\,,,,,
+sarl/sarl,https://github.com/sarl/sarl/blob/master/CONTRIBUTING.adoc,"Pull request guidelines, and code style guidelines, Travis-Cl or AppVeyor",,,,,
+MIT-PAC/droidsafe-src,\,\,,,,,
+apache/reef,https://cwiki.apache.org/confluence/display/REEF/Coding+Guidelines,"Do not use the @author Javadoc tag. (Be modest ! :-))
+We require to add comments to generate proper JavaDoc and XMLDoc documentation. In addition to this requirement, we encourage committers to add comments (if needed) to make code easier to understand. 
+
+Class
+Interface
+Public constructor
+Public method
+Important fields
+Code part that captures complex logic",,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->forbidden->author_tag,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->forbidden->author_tag,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->implicit->complex_code what->forbidden->author_tag
+apache/nifi,https://cwiki.apache.org/confluence/display/NIFI/Contributor+Guide,\,,,,,
+aeshell/aesh,https://github.com/aeshell/aesh/tree/master/config,\,,,,,
+ForestryMC/ForestryMC,https://github.com/ForestryMC/ForestryMC/blob/mc-1.12/CONTRIBUTING.md,\,,,,,
+LiveRamp/hank,\,\,,,,,
+Multiverse/Multiverse-3,https://github.com/Multiverse/Multiverse-3,\,,,,,
+pentaho/pentaho-reporting,\,\,,,,,
+FreeCol/freecol,https://github.com/FreeCol/freecol/blob/master/doc/developer.tex,"The code you contribute to FreeCol will be read and modified by
+several different developers. Therefore it is important to create
+a block of JavaDoc documentation with all methods/classes/packages
+you implement.",,,where->general_rules->implicit->nontrivial_public_method,where->general_rules->implicit->nontrivial_public_method,where->general_rules->implicit->nontrivial_public_method
+imglib/imglib2,\,\,,,,,
+realm/realm-java,https://github.com/realm/realm-java/blob/master/CONTRIBUTING.md,"All public classes and methods must have Javadoc describing their purpose.
+Method descriptions begin with a verb phrase, e.g. ""Checks"" instead of ""Check"".
+Capitalize the first letter of the method and @deprecated descriptions. Everything else starts with lower case.
+Empty line between method description and the rest.
+End all descriptions with a period . (except @see).
+Reference other Realm classes using {@link ...}.
+Wrap Java values in {@code ...}.
+@throws description must start with ""if"".
+Never list generic exceptions like RuntimeException, Exception or Error. Always reference the specific error.
+Line-length maximum is 120 chars. Parameter descriptions that go above this, should be split into multiple lines and indented. Otherwise do not use indentation (contrary to Oracle guidelines).
+",,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->purpose what->required->@code what->required->@link other->readability->language other->readability->space_indent,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->purpose what->required->@code what->required->@link other->readability->language,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes what->required->usage what->required->purpose what->required->@code what->required->@link other->readability->language other->readability->space_indent
+Multibit-Legacy/multibit,\,\,,,,,
+netty/netty,https://netty.io/wiki/developer-guide.html,\,,,,,
+OpenRock/OpenDJ,\,\,,,,,
+processing/processing-android,\,\,,,,,
+SpartanRefactoring/Main,https://github.com/SpartanRefactoring/Main/wiki/Coding-Standards,\,,,,,
+MIT-PAC/droidsafe-src,\,\,,,,,
+randoop/randoop,https://randoop.github.io/randoop/manual/dev.html#codeformatting,\,,,,,
+magja/magja,\,\,,,,,
+entando/entando-core,\,\,,,,,
+DICE-UNC/jargon,\,\,,,,,
+rapla/rapla,\,\,,,,,
+restlet/restlet-framework-java,https://github.com/restlet/restlet-framework-java/wiki/Contribute,\,,,,,
+xwiki/xwiki-platform,https://dev.xwiki.org/xwiki/bin/view/Community/Contributing#HDocumentation,"All new functionality needs to be documented for users, even if it is very rough for someone to expand on later. While rough is acceptable, incomplete is not. As with automated testing, as a community we are striving to increase the current coverage of documentation.",,,where->general_rules->explicit->all_methods,where->general_rules->explicit->all_methods,where->general_rules->explicit->all_methods
+yamcs/yamcs,\,\,,,,,
+ankidroid/Anki-Android,https://github.com/ankidroid/Anki-Android/wiki/Development-Guide,"Adding javadoc to class, members, and methods that are not yet properly documented",,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes,where->general_rules->implicit->nontrivial_public_method,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes
+CS-SI/Orekit,"https://github.com/CS-SI/Orekit/blob/develop/src/site/markdown/contributing.md
+https://www.orekit.org/site-orekit-latest/guidelines.html","all elements have complete javadoc, even private fields and methods (there are some rare exceptions, in case of code translated from the fortran language and models with huge parameters sets),
+
+",,,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->member_fields,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->member_fields,where->general_rules->explicit->all_methods where->general_rules->explicit->all_classes where->general_rules->explicit->member_fields
+IQSS/dataverse,"https://github.com/IQSS/dataverse/blob/develop/CONTRIBUTING.md
+https://guides.dataverse.org/en/latest/developers/coding-style.html",\,,,,,
+kaaproject/kaa,\,\,,,,,
+movsim/movsim,\,\,,,,,
+restfb/restfb,https://github.com/restfb/restfb/blob/e6b679f794724535ccd5c6a1fc040c9a3c14a231/.github/CONTRIBUTING.md,\,,,,,
+todoroo/astrid,\,\,,,,,
+zaproxy/zaproxy,https://github.com/zaproxy/zaproxy/wiki/DevGuidelines,"Any changes to the Paros classes (under the org.parosproxy.paros packages) should be commented at the beginning of the class (This is a requirement of the Paros licence), and the comments should start with // ZAP: YYYY/MM/DD
+Do not add ""(non-Javadoc)"" comments to overriding methods (the default comment automatically added when overriding a method).
+Comments should be used to aide in increasing readability and classifying/tagging portions of Unit Test functions, such as: \\Given, \\When, \\Then. Example:",,,where->general_rules->explicit->none_in_overriding_methods,where->general_rules->explicit->none_in_overriding_methods,where->general_rules->explicit->none_in_overriding_methods
+puppetlabs/geppetto,https://github.com/puppetlabs/geppetto/blob/dev/Contributing.md,\,,,,,
+Q0rDev/MChat,\,\,,,,,
+scifio/scifio,\,\,,,,,
+eXist-db/exist,https://github.com/eXist-db/exist/blob/develop/CONTRIBUTING.md,\,,,,,
+lsds/SEEP,\,\,,,,,
+naver/yobi,\,\,,,,,
+opendaylight/sfc,\,\,,,,,
+estatio/estatio,\,\,,,,,
+jenkinsci/jenkins,https://github.com/jenkinsci/jenkins/blob/master/CONTRIBUTING.md,\,,,,,

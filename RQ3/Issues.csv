@@ -1,0 +1,74 @@
+Link to issue,Response
+https://github.com/jajuk-team/jajuk/issues/2069,Thanks for your interest. PR appreciated.
+https://github.com/TechReborn/TechReborn/issues/2470 ,"I don’t follow a lot of those guidelines 😂 we could strictly enforce some with checkstyle rules but I don’t think it’s worth it.
+
+Stuff is prob commented out for a reason so I’d leave it, it’s not causing any harm. If anything adjusting the guidelines to be less hypocritical might be a good idea."
+https://issues.apache.org/jira/browse/KAFKA-13186#,
+https://issues.apache.org/jira/browse/MAPREDUCE-7362,
+https://issues.apache.org/jira/browse/HIVE-25447,
+https://github.com/dkpro/dkpro-core/issues/1504,
+https://github.com/apollo-rsps/apollo/issues/579,
+https://github.com/AuthMe/AuthMeReloaded/issues/2400,
+https://issues.apache.org/jira/projects/JAMES/issues/JAMES-3633,"Hello CoolGuy,
+
+> Would you like to add Javadoc for these API [...] ?
+> If there is anything I can help with?
+
+Contributions welcome indeed 
+
+I think especially the mailet API can benefit from it.
+
+To be fairly honnest the James devs now tend to strive for ""Clean code"" guidelines, trying to write self speaking code, thus the amount of needed JavaDoc decreases. Likely we could update the contributing guidelines.
+
+Cheers,
+
+Benoit"
+https://github.com/cgeo/cgeo/issues/11469,"Some parts of the code are pretty old and do not yet follow our coding conventions. If you like to contribute, you are very welcomed to add missing Javadocs etc.
+FYI: ""viewpagerindicator"" is no longer an active part of this project, sources will be removed soon."
+https://github.com/biojava/biojava/issues/956,"What we write in CONTRIBUTING.md is our aspiration as to the quality of code and docs in the project. Old code might not always adhere to it, but going forward new contributions are expected to follow the guidelines.
+
+As for older code, as you notice there are missing docs in quite a few places. We are always happy to have a new pair of hands to help! If you can provide a Pull Request that would be fantastic."
+https://github.com/codinguser/gnucash-android/issues/905,
+https://github.com/cuba-platform/cuba/issues/3218,
+https://github.com/odpi/egeria/issues/5595,Please help :)
+https://github.com/elastic/elasticsearch/issues/76602,"The guidelines around Javadoc were added relatively recently in the history of the Elasticsearch project, so there is a large amount of code that lacks Javadoc. If you feel that you understand a part of the codebase well enough to write useful Javadoc, then your contribution would be most welcome. However for many classes, it probably wouldn't be worth your time to learn the code well enough to document. This is also true for tests, since although it is valuable to have Javadoc that succinctly describes each test case, you need to confident that you understand each case.
+
+A better approach would be to find another issue, e.g. a bug fix or small enhancement, and add Javadoc to the code that has to be changed to address the issue.
+
+I hope you don't mind if I close this issue, since there's no specific action that we want to take around Javadoc at this time."
+https://github.com/jitsi/jitsi/issues/743,
+https://github.com/MovingBlocks/Terasology/issues/4851,"Hi @CoolKangaroo2022,
+
+just because the code conventions urge everybody to provide Javaodoc does not mean that they magically appear 🙈
+
+We're trying to add docstrings here and there, mostly based on the boy scout rule when we're touching the files anyways, or had to investigate related code for any reason.
+
+We do appreciate any contribution, be it providing the perfect docs or just writing down what you think the methods or classes are (supposed to be )doing (yay for using Cunningham's Law). The documentation should help developers to use the code, so it's usually helpful to state assumptions or invariants/contracts of methods or classes, or give usage guides.
+
+We're not trying to get ""100% doc coverage"" like this, though:
+
+/** Get the title. */
+public String getTitle() { return title; }
+Do you have some insights you want to share, or took some notes on code you've already looked at, or do you have questions about specific parts of the code you hoped to find answers for in the Javadoc?"
+https://github.com/realm/realm-java/issues/7546,
+https://jira.xwiki.org/browse/XWIKI-18914,
+https://issues.apache.org/jira/browse/DRILL-7987,"CoolGuy Sure. Thanks for your interest in the Apache Drill. there is a link resource about the Drill : 1.19.0 API. Then, Welcome to join our Slack Channel."
+https://github.com/zaproxy/zaproxy/issues/6762,Feel free to open a pull request removing them.
+https://github.com/libgdx/libgdx/issues/6632,"comment1:Anything in gwt emu folders is not exactly public-facing. Those are what are known as ""super-sourced"", a GWT feature that replaces an existing (generally, documented) file with a different implementation when run on the HTML backend. The different implementation is essentially internal, since the emu/ folder is excluded from builds. LwjglCursor inherits its docs from Cursor, and I don't think anything about it is usually exposed to the user in the core/ folder.
+
+However...
+
+UIUtils should probably be documented. It's kind of an odd class, in where it's placed in the packages as well as what it does. There have been various proposals to replace it with something else, but nothing seemed to solidify. Its usage is somewhat straightforward from the names only, but I had to double-check what left(int) and ctrl(int) did with their argument, along with the other left/right/middle methods (which I didn't initially realize were mouse buttons) and other key modifiers. I'm not volunteering to write these docs, but thankfully changing the docs doesn't require actually building libGDX, so the contribution is substantially easier for anyone to make.
+
+
+"
+https://github.com/DSpace/DSpace/issues/3367,"Comment1: Good documentation is always welcome. And much is missing, and much else could be greatly improved. The style guide was written long after some of the code in DSpace. And bits like the old REST API and SWORD have not received much attention since then.
+Often, when I have to puzzle out what some supporting code is doing while writing a patch, I'll take a moment to put what I've learned into the Javadoc that I wish had already been there.
+
+Comment2: @CoolKangaroo2022 : as @mwoodiupui correctly notes, some older methods are missing JavaDocs as they were created prior to the style guide. If you'd like to help us add missing JavaDocs, we'd welcome the contributions (just create a Pull Request for us to review). Otherwise, we do our best to update/correct JavaDocs little by little in new PRs -- but there's no one specifically working on adding missing JavaDocs at this time."
+https://github.com/twitch4j/twitch4j/issues/421,"
+since you have opened a lot of similar issues across different project and didn't respond/follow up in any of them we will be closing this as it looks like spam.
+If you'r still interested in contributing, feel free to join us on our discord (linked in the readme) so we can talk about possible options on how you could contribute.
+
+Best Regards"
+TOTAL RESPONSES:,13
