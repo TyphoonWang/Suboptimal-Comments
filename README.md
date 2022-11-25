@@ -10,6 +10,7 @@ It contains the matedata of 4,392 GitHub Java open source repositories we used i
 
 * independent_comment_changes.zip
 It contains all independent comment changes we collect from 4,392 Java open source repositories.
+** GitHub blocks files larger than 100 MB. You can download the dataset via [Zenodo](https://zenodo.org/record/7360249). 
 
 * javadoc_comment.csv / inline_comment.csv
 The number of Javadoc and non-Javadoc changes and ICCs in each repository. 
